@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demanda Uber - Buenos Aires (Automática)</title>
+    <title>Demanda Uber - Buenos Aires (Pro)</title>
     <style>
         :root {
             --bg-dark: #0f172a;
@@ -13,89 +13,110 @@
             --text-muted: #94a3b8;
             --accent-red: #ef4444;
             --accent-blue: #38bdf8;
+            --accent-green: #22c55e;
+            --accent-purple: #a855f7;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-        body { background-color: var(--bg-dark); color: var(--text-main); padding: 16px; max-width: 600px; margin: 0 auto; padding-bottom: 50px; }
+        body { background-color: var(--bg-dark); color: var(--text-main); padding: 16px; max-width: 650px; margin: 0 auto; padding-bottom: 50px; }
         header { text-align: center; margin-bottom: 16px; padding: 16px; background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%); border: 1px solid var(--card-border); border-radius: 16px; }
-        header h1 { font-size: 1.3rem; font-weight: 800; }
-        .status-bar { background: var(--card-bg); padding: 10px 14px; border-radius: 12px; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; border: 1px solid var(--card-border); display: flex; justify-content: space-between; align-items: center; }
-        .section-title { font-size: 1.1rem; font-weight: 700; margin: 20px 0 12px 0; text-transform: uppercase; letter-spacing: 0.5px; }
-        .title-events { color: var(--accent-red); }
-        .title-airports { color: var(--accent-blue); }
-        .card { background: var(--card-bg); border-radius: 16px; padding: 16px; margin-bottom: 14px; border: 1px solid var(--card-border); position: relative; }
+        header h1 { font-size: 1.4rem; font-weight: 800; color: #38bdf8; }
+        .status-bar { background: var(--card-bg); padding: 10px 14px; border-radius: 12px; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px; border: 1px solid var(--card-border); display: flex; justify-content: space-between; align-items: center; }
+        .section-title { font-size: 1.1rem; font-weight: 700; margin: 24px 0 12px 0; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 8px; border-bottom: 2px solid var(--card-border); padding-bottom: 6px; }
+        .card { background: var(--card-bg); border-radius: 16px; padding: 16px; margin-bottom: 14px; border: 1px solid var(--card-border); position: relative; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); }
         .badge { position: absolute; top: 16px; right: 16px; padding: 4px 8px; border-radius: 6px; font-size: 0.7rem; font-weight: 700; background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
-        .card h3 { font-size: 1.1rem; margin-bottom: 10px; color: #fff; padding-right: 60px; }
+        .card h3 { font-size: 1.1rem; margin-bottom: 10px; color: #fff; padding-right: 70px; }
         .info-row { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 6px; }
         .nav-buttons { display: flex; gap: 10px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--card-border); }
-        .btn-nav { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.85rem; }
+        .btn-nav { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: opacity 0.2s; }
+        .btn-nav:hover { opacity: 0.9; }
         .btn-maps { background-color: #ffffff; color: #1e293b; }
         .btn-waze { background-color: #33ccff; color: #000000; }
-        .btn-nav img { width: 20px; height: 20px; object-fit: contain; }
+        .btn-nav svg { width: 18px; height: 18px; fill: currentColor; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>🚗 Demanda BA - Automática</h1>
+        <h1>🚗 Demanda BA - Conductor Pro</h1>
     </header>
 
     <div class="status-bar">
         <span id="fecha-hoy">Cargando fecha...</span>
-        <span>Sincronizado 🔄</span>
+        <span style="color: var(--accent-green);">● En Vivo / Automático</span>
     </div>
 
-    <div class="section-title title-events">📌 Eventos Programados para Hoy</div>
-    <div id="lista-eventos">
-        <p style="color: var(--text-muted); text-align: center;">Cargando eventos en tiempo real...</p>
-    </div>
+    <!-- SECCIÓN CLIMA -->
+    <div class="section-title" style="color: var(--accent-blue);">🌤️ Clima y Estado del Tránsito</div>
+    <div id="seccion-clima"></div>
 
-    <div class="section-title title-airports">✈️ Picos en Aeropuertos</div>
+    <!-- SECCIÓN DEPORTES -->
+    <div class="section-title" style="color: var(--accent-green);">⚽ Deportes y Estadios</div>
+    <div id="seccion-deportes"></div>
+
+    <!-- SECCIÓN ESPECTÁCULOS -->
+    <div class="section-title" style="color: var(--accent-purple);">🎸 Espectáculos y Recitales</div>
+    <div id="seccion-espectaculos"></div>
+
+    <!-- SECCIÓN AEROPUERTOS -->
+    <div class="section-title" style="color: var(--accent-blue);">✈️ Picos en Aeropuertos</div>
     <div class="card">
         <span class="badge" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; border-color: #38bdf8;">Diario</span>
         <h3>Aeropuerto Internacional de Ezeiza (EZE)</h3>
         <div class="info-row">🕒 <b>Picos estimados:</b> 06:00 - 09:00 / 18:00 - 21:00 hs</div>
         <div class="nav-buttons">
             <a href="https://www.google.com/maps/search/?api=1&query=Aeropuerto+Internacional+Ezeiza" target="_blank" class="btn-nav btn-maps">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Maps_icon_%282020%29.svg" alt="Maps"> Maps
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> Maps
             </a>
             <a href="https://waze.com/ul?q=Aeropuerto+Internacional+Ezeiza&navigate=yes" target="_blank" class="btn-nav btn-waze">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Waze_icon_2020.svg" alt="Waze"> Waze
+                <svg viewBox="0 0 24 24"><path d="M18.57 5.72L15 4.5l-3 1-3-1-3.57 1.22C4.54 6.22 4 7.05 4 8v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-.95-.54-1.78-1.43-2.28zM12 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg> Waze
             </a>
         </div>
     </div>
 
     <script>
+        const iconoMaps = `<svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>`;
+        const iconoWaze = `<svg viewBox="0 0 24 24"><path d="M18.57 5.72L15 4.5l-3 1-3-1-3.57 1.22C4.54 6.22 4 7.05 4 8v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-.95-.54-1.78-1.43-2.28zM12 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>`;
+
         async function cargarDatos() {
             document.getElementById('fecha-hoy').innerText = `Fecha: ${new Date().toLocaleDateString()}`;
             try {
-                // Lee el archivo JSON generado automáticamente por GitHub Actions
                 const respuesta = await fetch('eventos.json?t=' + new Date().getTime());
                 const eventos = await respuesta.json();
                 
-                const contenedor = document.getElementById('lista-eventos');
-                contenedor.innerHTML = '';
+                let htmlClima = '';
+                let htmlDeportes = '';
+                let htmlEspectaculos = '';
 
                 eventos.forEach(ev => {
-                    contenedor.innerHTML += `
+                    let tarjeta = `
                         <div class="card">
                             <span class="badge">${ev.demanda}</span>
                             <h3>${ev.titulo}</h3>
                             <div class="info-row">🕒 <b>Horario:</b> ${ev.horario} (Salida: ${ev.salida})</div>
-                            <div class="info-row">👥 <b>Asistencia:</b> ${ev.asistencia}</div>
-                            <div class="info-row">📍 <b>Dirección:</b> ${ev.direccion}</div>
+                            <div class="info-row">👥 <b>Impacto:</b> ${ev.asistencia}</div>
+                            <div class="info-row">📍 <b>Lugar:</b> ${ev.direccion}</div>
                             <div class="nav-buttons">
                                 <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ev.direccion)}" target="_blank" class="btn-nav btn-maps">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Maps_icon_%282020%29.svg" alt="Maps"> Maps
+                                    ${iconoMaps} Maps
                                 </a>
                                 <a href="https://waze.com/ul?q=${encodeURIComponent(ev.direccion)}&navigate=yes" target="_blank" class="btn-nav btn-waze">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Waze_icon_2020.svg" alt="Waze"> Waze
+                                    ${iconoWaze} Waze
                                 </a>
                             </div>
                         </div>
                     `;
+
+                    if (ev.categoria === 'clima') htmlClima += tarjeta;
+                    if (ev.categoria === 'deportes') htmlDeportes += tarjeta;
+                    if (ev.categoria === 'espectaculos') htmlEspectaculos += tarjeta;
                 });
+
+                document.getElementById('seccion-clima').innerHTML = htmlClima || '<p style="color:var(--text-muted); font-size:0.9rem;">Sin alertas climáticas activas.</p>';
+                document.getElementById('seccion-deportes').innerHTML = htmlDeportes || '<p style="color:var(--text-muted); font-size:0.9rem;">No hay partidos masivos programados para hoy.</p>';
+                document.getElementById('seccion-espectaculos').innerHTML = htmlEspectaculos || '<p style="color:var(--text-muted); font-size:0.9rem;">No hay espectáculos programados para este horario.</p>';
+
             } catch (error) {
-                document.getElementById('lista-eventos').innerHTML = '<p style="color: #ef4444; text-align: center;">No se pudieron cargar los eventos automáticos hoy.</p>';
+                console.error(error);
             }
         }
         cargarDatos();
