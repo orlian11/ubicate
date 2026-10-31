@@ -1,101 +1,40 @@
-import json
-import datetime
+#!/usr/bin/env python3
+"""
+Actualizador de eventos CABA para Uber.
+- SIN APIs pagas ni claves: descarga páginas web públicas y extrae los datos.
+- NUNCA inventa datos: si una fuente falla, queda registrada en "fuentes" y no se rellena nada.
+- Genera eventos.json (lo lee index.html). Pensado para correr en GitHub Actions cada pocas horas.
 
-def generar_eventos():
-    # Obtenemos la fecha de hoy y de mañana de forma completamente dinámica
-    hoy = datetime.datetime.now()
-    manana = hoy + datetime.timedelta(days=1)
-    
-    str_hoy = hoy.strftime("%d/%m/%Y")
-    str_manana = manana.strftime("%d/%m/%Y")
+Uso local:  python actualizar.py          (modo normal)
+            python actualizar.py -v       (muestra detalle de cada fuente para depurar)
+"""
+import json, re, sys, unicodedata, datetime as dt
+from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse, parse_qs, quote_plus
+from zoneinfo import ZoneInfo
 
-    # Lista completa, exhaustiva y verificada de eventos masivos y zonas de alta demanda en CABA
-    eventos_completos = [
-        {
-            "categoria": "deportes",
-            "titulo": "Torneo Liga Profesional: River Plate vs. Boca Juniors (Superclásico)",
-            "fecha": str_manana,
-            "horario": "17:00 - 19:30 hs",
-            "salida": "19:30 - 21:00 hs",
-            "asistencia": "~80.000 personas (Demanda Crítica)",
-            "direccion": "Av. Figueroa Alcorta 7597, Núñez, CABA (Mâs Monumental)",
-            "demanda": "Crítica"
-        },
-        {
-            "categoria": "deportes",
-            "titulo": "Liga Profesional: Encuentro en Estadio Alberto J. Armando (La Bombonera)",
-            "fecha": str_hoy,
-            "horario": "18:00 - 20:00 hs",
-            "salida": "20:00 - 21:30 hs",
-            "asistencia": "~50.000 personas (Demanda Crítica)",
-            "direccion": "Brandsen 805, La Boca, CABA",
-            "demanda": "Crítica"
-        },
-        {
-            "categoria": "espectaculos",
-            "titulo": "Concierto o Show en Vivo - Movistar Arena",
-            "fecha": str_hoy,
-            "horario": "21:00 hs",
-            "salida": "23:00 - 00:30 hs",
-            "asistencia": "~15.000 personas (Alta demanda de salida)",
-            "direccion": "Humboldt 450, Villa Crespo, CABA",
-            "demanda": "Alta"
-        },
-        {
-            "categoria": "espectaculos",
-            "titulo": "Espectáculo Masivo - Estadio Luna Park",
-            "fecha": str_manana,
-            "horario": "20:30 hs",
-            "salida": "22:30 - 00:00 hs",
-            "asistencia": "~8.000 a 10.000 personas",
-            "direccion": "Av. Madero 420, Corrientes y Bouchard, CABA",
-            "demanda": "Alta"
-        },
-        {
-            "categoria": "espectaculos",
-            "titulo": "Festival o Concierto - Hipódromo de Palermo / Tecnópolis",
-            "fecha": str_hoy,
-            "horario": "20:00 hs en adelante",
-            "salida": "Madrugada",
-            "asistencia": "Alta afluencia masiva",
-            "direccion": "Av. Del Libertador 4101, Palermo, CABA",
-            "demanda": "Alta"
-        },
-        {
-            "categoria": "clima",
-            "titulo": "Monitoreo de Tránsito y Clima - Microcentro / Obelisco",
-            "fecha": str_hoy,
-            "horario": "Pico nocturno (20:00 - 02:00 hs)",
-            "salida": "Variable",
-            "asistencia": "Alta rotación urbana general",
-            "direccion": "Av. 9 de Julio y Corrientes, CABA",
-            "demanda": "Muy Alta"
-        },
-        {
-            "categoria": "espectaculos",
-            "titulo": "Movimiento Nocturno y Gastronómico - Palermo Soho / Hollywood",
-            "fecha": str_hoy,
-            "horario": "21:00 - 04:00 hs",
-            "salida": "Madrugada",
-            "asistencia": "Alta densidad de pasajeros",
-            "direccion": "Costa Rica y Serrano, Palermo, CABA",
-            "demanda": "Alta"
-        },
-        {
-            "categoria": "espectaculos",
-            "titulo": "Polo Gastronómico y Nocturno - Puerto Madero",
-            "fecha": str_hoy,
-            "horario": "19:30 - 01:00 hs",
-            "salida": "Variable",
-            "asistencia": "Turistas y público general",
-            "direccion": "Alicia Moreau de Justo 500, CABA",
-            "demanda": "Media-Alta"
-        }
-    ]
+import requests
+from bs4 import BeautifulSoup
 
-    # Escribe los datos limpios en el archivo que lee la aplicación web
-    with open("eventos.json", "w", encoding="utf-8") as f:
-        json.dump(eventos_completos, f, ensure_ascii=False, indent=4)
+VERBOSE = "-v" in sys.argv
+TZ = ZoneInfo("America/Argentina/Buenos_Aires")
+DIAS_ADELANTE = 7          # cuántos días hacia adelante mostrar
+SOLO_LUGARES_CONOCIDOS = True   # recitales: solo lugares de la tabla LUGARES
+ARCHIVO_SALIDA = "eventos.json"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept-Language": "es-AR,es;q=0.9",
+}
 
-if __name__ == "__main__":
-    generar_eventos()
+# ───────────────────────── FUENTES (editá acá) ─────────────────────────
+# Recitales / teatros: páginas con datos estructurados (JSON-LD). Agregá más URLs cuando quieras.
+FUENTES_JSONLD = [
+    ("Songkick Buenos Aires", "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires", 3),
+    ("Songkick Rock",         "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/rock", 2),
+    ("Songkick Latin",        "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/latin", 2),
+    ("Songkick Movistar Arena", "https://www.songkick.com/es/venues/4150369-movistar-arena", 2),
+    # (nombre, url, cantidad_de_paginas)
+]
+# Fútbol: se buscan notas recientes con "días y horarios" y se leen los partidos de los clubes de la tabla.
+FUTBOL_BUSQUEDAS = [
