@@ -1,5 +1,15 @@
 [
     {
+        "categoria": "espectaculos",
+        "titulo": "Concierto en Vivo / Show en el Movistar Arena",
+        "fecha": "31/10/2026",
+        "horario": "21:00 hs",
+        "salida": "23:00 - 00:30 hs",
+        "asistencia": "~15.000 personas (Alta demanda de salida)",
+        "direccion": "Humboldt 450, Villa Crespo, CABA",
+        "demanda": "Crítica"
+    },
+    {
         "categoria": "clima",
         "titulo": "Monitoreo de Tránsito y Clima en CABA",
         "fecha": "31/10/2026",
