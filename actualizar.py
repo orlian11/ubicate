@@ -1,33 +1,54 @@
 import json
 import datetime
 
-# Lógica del script que actualiza el JSON según el día de la semana o eventos programados
 def generar_eventos():
-    hoy = datetime.datetime.now()
-    dia_semana = hoy.weekday() # 0: Lunes, 5: Sábado, 6: Domingo
-    
-    eventos = []
-    
-    # Ejemplo de automatización basada en días lógicos de alta demanda en Buenos Aires
-    if dia_semana in [4, 5, 6]: # Viernes, Sábado, Domingo (Fines de semana con más recitales/movimiento nocturno)
-        eventos.append({
-            "titulo": "Recital / Evento Masivo en CABA (Movistar Arena / River)",
-            "horario": "21:00 hs",
-            "salida": "23:30 hs",
-            "asistencia": "~15.000 a 60.000 personas",
-            "direccion": "Av. Figueroa Alcorta 7597 / Humboldt 450",
+    eventos = [
+        {
+            "categoria": "clima",
+            "titulo": "Alta Demanda por Clima / Lluvia en CABA",
+            "horario": "Pico nocturno",
+            "salida": "Variable",
+            "asistencia": "Multiplicador alto de viajes",
+            "direccion": "Microcentro y Zonas Residenciales CABA",
+            "demanda": "Muy Alta"
+        },
+        {
+            "categoria": "deportes",
+            "titulo": "Partido de Fútbol Masivo - Estadio Mâs Monumental (River)",
+            "horario": "19:00 - 21:30 hs",
+            "salida": "21:30 - 23:00 hs",
+            "asistencia": "~80.000 personas",
+            "direccion": "Av. Figueroa Alcorta 7597, Núñez, CABA",
             "demanda": "Crítica"
-        })
-    
-    # Evento general de CABA
-    eventos.append({
-        "titulo": "Flujo General Microcentro / Palermo",
-        "horario": "Horario nocturno / Salida gastronómica",
-        "salida": "02:00 - 05:00 hs",
-        "asistencia": "Alta rotación",
-        "direccion": "Palermo Soho y Hollywood, CABA",
-        "demanda": "Alta"
-    })
+        },
+        {
+            "categoria": "deportes",
+            "titulo": "Encuentro de Fútbol - Estadio Alberto J. Armando (La Bombonera)",
+            "horario": "18:00 - 20:00 hs",
+            "salida": "20:00 - 21:30 hs",
+            "asistencia": "~50.000 personas",
+            "direccion": "Brandsen 805, La Boca, CABA",
+            "demanda": "Crítica"
+        },
+        {
+            "categoria": "espectaculos",
+            "titulo": "Concierto Masivo - Movistar Arena",
+            "horario": "21:00 hs",
+            "salida": "23:00 - 00:30 hs",
+            "asistencia": "~15.000 personas",
+            "direccion": "Humboldt 450, Villa Crespo, CABA",
+            "demanda": "Alta"
+        },
+        {
+            "categoria": "espectaculos",
+            "titulo": "Recital o Festival - Hipódromo de Palermo / Tecnópolis",
+            "horario": "20:00 hs en adelante",
+            "salida": "Madrugada",
+            "asistencia": "Alta afluencia de público",
+            "direccion": "Av. Del Libertador 4101, Palermo, CABA",
+            "demanda": "Alta"
+        }
+    ]
 
     with open("eventos.json", "w", encoding="utf-8") as f:
         json.dump(eventos, f, ensure_ascii=False, indent=4)
