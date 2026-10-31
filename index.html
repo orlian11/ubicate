@@ -38,3 +38,101 @@
     <header><h1>🚗 Demanda BA</h1></header>
     <div class="status-bar"><span id="fecha-hoy"></span><span id="actualizado">Cargando…</span></div>
     <div id="avisos"></div>
+
+    <div class="section-title title-events">📌 Eventos programados</div>
+    <div class="filtros" id="filtros"></div>
+    <div id="lista-eventos"><p class="vacio">Cargando eventos…</p></div>
+
+    <div class="section-title title-airports">✈️ Aeropuertos</div>
+    <div class="card">
+        <span class="badge imp-Baja">Estimado</span>
+        <h3>Ezeiza (EZE)</h3>
+        <div class="info-row">🕒 <b>Picos típicos:</b> 06:00–09:00 y 18:00–21:00 hs</div>
+        <div class="fuente">Referencia general, no es dato en tiempo real de vuelos.</div>
+        <div class="nav-buttons">
+            <a class="btn-nav btn-maps" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Aeropuerto+Internacional+Ezeiza">Maps</a>
+            <a class="btn-nav btn-waze" target="_blank" rel="noopener" href="https://waze.com/ul?q=Aeropuerto+Internacional+Ezeiza&navigate=yes">Waze</a>
+        </div>
+    </div>
+
+    <script>
+        // Los datos vienen de sitios externos: se escapan antes de mostrarlos.
+        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+        const ICONO = { futbol:'⚽', recital:'🎤', teatro:'🎭', otro:'📍' };
+        const NOMBRE_TIPO = { todos:'Todos', futbol:'Fútbol', recital:'Recitales', teatro:'Teatros' };
+        let DATOS = [], filtro = 'todos';
+
+        function etiquetaDia(iso) {
+            const hoy = new Date(); hoy.setHours(0,0,0,0);
+            const d = new Date(iso + 'T00:00:00');
+            const dif = Math.round((d - hoy) / 86400000);
+            const txt = d.toLocaleDateString('es-AR', { weekday:'long', day:'numeric', month:'long' });
+            return dif === 0 ? 'Hoy · ' + txt : dif === 1 ? 'Mañana · ' + txt : txt;
+        }
+
+        function tarjeta(ev) {
+            const dir = ev.direccion ? ev.lugar + ', ' + ev.direccion : ev.lugar;
+            const q = encodeURIComponent(dir + ', Buenos Aires');
+            const titulo = ev.local ? `${esc(ev.local)} <span style="color:var(--text-muted)">vs</span> ${esc(ev.visitante)}` : esc(ev.titulo);
+            const url = /^https?:\/\//.test(ev.url || '') ? ev.url : '';
+            return `
+            <div class="card">
+                <span class="badge imp-${esc(ev.importancia)}">${esc(ev.importancia)}</span>
+                <h3>${ICONO[ev.tipo] || '📍'} ${titulo}</h3>
+                ${ev.artista && ev.artista !== ev.titulo ? `<div class="info-row">🎵 <b>Artista:</b> ${esc(ev.artista)}</div>` : ''}
+                <div class="info-row">🕒 <b>Inicio:</b> ${ev.hora ? esc(ev.hora) + ' hs' : 'hora a confirmar'}${ev.salida_estimada ? ` · <b>Salida estimada:</b> ${esc(ev.salida_estimada)} hs` : ''}</div>
+                <div class="info-row">📍 <b>${esc(ev.lugar)}</b>${ev.direccion ? ' — ' + esc(ev.direccion) : ''}</div>
+                ${ev.capacidad ? `<div class="info-row">👥 <b>Capacidad aprox.:</b> ${Number(ev.capacidad).toLocaleString('es-AR')}</div>` : ''}
+                ${ev.aviso ? `<div class="info-row" style="color:#fbbf24">⚠️ ${esc(ev.aviso)}</div>` : ''}
+                <div class="fuente">Fuente: ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(ev.fuente)}</a>` : esc(ev.fuente)}${ev.coincidencias > 1 ? ` · confirmado por ${Number(ev.coincidencias)} fuentes` : ''}</div>
+                <div class="nav-buttons">
+                    <a class="btn-nav btn-maps" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${q}">Maps</a>
+                    <a class="btn-nav btn-waze" target="_blank" rel="noopener" href="https://waze.com/ul?q=${q}&navigate=yes">Waze</a>
+                </div>
+            </div>`;
+        }
+
+        function pintar() {
+            const lista = DATOS.filter(e => filtro === 'todos' || e.tipo === filtro);
+            const cont = document.getElementById('lista-eventos');
+            if (!lista.length) { cont.innerHTML = '<p class="vacio">No hay eventos confirmados para este filtro.</p>'; return; }
+            let html = '', dia = '';
+            for (const ev of lista) {
+                if (ev.fecha !== dia) { dia = ev.fecha; html += `<div class="section-title" style="margin-top:18px;font-size:.95rem;color:var(--text-main)">${esc(etiquetaDia(dia))}</div>`; }
+                html += tarjeta(ev);
+            }
+            cont.innerHTML = html;
+        }
+
+        function pintarFiltros() {
+            const tipos = ['todos', ...new Set(DATOS.map(e => e.tipo))];
+            document.getElementById('filtros').innerHTML = tipos.map(t =>
+                `<button class="${t === filtro ? 'on' : ''}" data-t="${esc(t)}">${esc(NOMBRE_TIPO[t] || t)}</button>`).join('');
+            document.querySelectorAll('#filtros button').forEach(b => b.onclick = () => { filtro = b.dataset.t; pintarFiltros(); pintar(); });
+        }
+
+        async function cargar() {
+            document.getElementById('fecha-hoy').textContent = new Date().toLocaleDateString('es-AR', { weekday:'short', day:'numeric', month:'short' });
+            try {
+                const r = await fetch('eventos.json?t=' + Date.now());
+                const j = await r.json();
+                DATOS = j.eventos || [];
+                const av = [];
+                if (j.actualizado) {
+                    const horas = (Date.now() - new Date(j.actualizado)) / 3600000;
+                    document.getElementById('actualizado').textContent = 'Actualizado ' + new Date(j.actualizado).toLocaleString('es-AR', { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' });
+                    if (horas > 12) av.push('Los datos tienen más de 12 horas. Revisá que el actualizador automático esté corriendo.');
+                } else document.getElementById('actualizado').textContent = 'Sin actualizar';
+                if (j.aviso) av.push(j.aviso);
+                const caidas = Object.entries(j.fuentes || {}).filter(([, s]) => !s.ok).map(([n]) => n);
+                if (caidas.length) av.push('Fuentes sin datos: ' + caidas.join(', ') + '. Puede faltar información.');
+                document.getElementById('avisos').innerHTML = av.map(a => `<div class="aviso">⚠️ ${esc(a)}</div>`).join('');
+                pintarFiltros(); pintar();
+            } catch (e) {
+                document.getElementById('lista-eventos').innerHTML = '<p class="vacio" style="color:#ef4444">No se pudo leer eventos.json.</p>';
+            }
+        }
+        cargar();
+    </script>
+</body>
+</html>
