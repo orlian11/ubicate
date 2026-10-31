@@ -1,17 +1,17 @@
 [
     {
         "categoria": "deportes",
-        "titulo": "Partido de Fútbol Masivo - Estadio Mâs Monumental (River Plate)",
-        "fecha": "31/10/2026",
-        "horario": "19:00 - 21:30 hs",
-        "salida": "21:30 - 23:00 hs",
+        "titulo": "Torneo Liga Profesional: River Plate vs. Boca Juniors (Superclásico)",
+        "fecha": "01/11/2026",
+        "horario": "17:00 - 19:30 hs",
+        "salida": "19:30 - 21:00 hs",
         "asistencia": "~80.000 personas (Demanda Crítica)",
-        "direccion": "Av. Figueroa Alcorta 7597, Núñez, CABA",
+        "direccion": "Av. Figueroa Alcorta 7597, Núñez, CABA (Mâs Monumental)",
         "demanda": "Crítica"
     },
     {
         "categoria": "deportes",
-        "titulo": "Encuentro de Fútbol - Estadio Alberto J. Armando (La Bombonera)",
+        "titulo": "Liga Profesional: Encuentro en Estadio Alberto J. Armando (La Bombonera)",
         "fecha": "31/10/2026",
         "horario": "18:00 - 20:00 hs",
         "salida": "20:00 - 21:30 hs",
@@ -32,7 +32,7 @@
     {
         "categoria": "espectaculos",
         "titulo": "Espectáculo Masivo - Estadio Luna Park",
-        "fecha": "31/10/2026",
+        "fecha": "01/11/2026",
         "horario": "20:30 hs",
         "salida": "22:30 - 00:00 hs",
         "asistencia": "~8.000 a 10.000 personas",
