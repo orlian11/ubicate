@@ -1,27 +1,26 @@
-name: Actualizar Demanda Diaria
+name: Actualizar eventos
 
 on:
   schedule:
-    - cron: '0 7 * * *'
-  workflow_dispatch:
+    - cron: "0 */3 * * *"     # cada 3 horas (hora UTC)
+  workflow_dispatch:           # botón "Run workflow" para probar a mano
+
+permissions:
+  contents: write
 
 jobs:
-  actualizar:
+  scrapear:
     runs-on: ubuntu-latest
     steps:
-      - name: Clonar Repositorio
-        uses: actions/checkout@v3
-
-      - name: Configurar Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-
-      - name: Ejecutar Script de Actualización
-        run: python actualizar.py
-
-      - name: Guardar cambios automáticamente en GitHub
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "🤖 Actualización automática de eventos diarios"
-          branch: main
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml
+      - run: python actualizar.py -v
+      - name: Guardar eventos.json si cambió
+        run: |
+          git config user.name "bot-eventos"
+          git config user.email "bot-eventos@users.noreply.github.com"
+          git add eventos.json
+          git diff --cached --quiet || (git commit -m "Actualiza eventos" && git push)
