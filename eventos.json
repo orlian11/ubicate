@@ -1,10 +1,18 @@
 [
-  {
-    "titulo": "Agenda Cultural y Deportiva BA",
-    "horario": "Todo el día",
-    "salida": "Variable",
-    "asistencia": "Masiva en la ciudad",
-    "direccion": "Estadios y Centros Culturales CABA",
-    "demanda": "Actualización Diaria"
-  }
+    {
+        "titulo": "Recital / Evento Masivo en CABA (Movistar Arena / River)",
+        "horario": "21:00 hs",
+        "salida": "23:30 hs",
+        "asistencia": "~15.000 a 60.000 personas",
+        "direccion": "Av. Figueroa Alcorta 7597 / Humboldt 450",
+        "demanda": "Crítica"
+    },
+    {
+        "titulo": "Flujo General Microcentro / Palermo",
+        "horario": "Horario nocturno / Salida gastronómica",
+        "salida": "02:00 - 05:00 hs",
+        "asistencia": "Alta rotación",
+        "direccion": "Palermo Soho y Hollywood, CABA",
+        "demanda": "Alta"
+    }
 ]
