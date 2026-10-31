@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demanda Uber - Buenos Aires (Automática)</title>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: #1e293b;
+            --card-border: #334155;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-red: #ef4444;
+            --accent-blue: #38bdf8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg-dark); color: var(--text-main); padding: 16px; max-width: 600px; margin: 0 auto; padding-bottom: 50px; }
+        header { text-align: center; margin-bottom: 16px; padding: 16px; background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%); border: 1px solid var(--card-border); border-radius: 16px; }
+        header h1 { font-size: 1.3rem; font-weight: 800; }
+        .status-bar { background: var(--card-bg); padding: 10px 14px; border-radius: 12px; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; border: 1px solid var(--card-border); display: flex; justify-content: space-between; align-items: center; }
+        .section-title { font-size: 1.1rem; font-weight: 700; margin: 20px 0 12px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+        .title-events { color: var(--accent-red); }
+        .title-airports { color: var(--accent-blue); }
+        .card { background: var(--card-bg); border-radius: 16px; padding: 16px; margin-bottom: 14px; border: 1px solid var(--card-border); position: relative; }
+        .badge { position: absolute; top: 16px; right: 16px; padding: 4px 8px; border-radius: 6px; font-size: 0.7rem; font-weight: 700; background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
+        .card h3 { font-size: 1.1rem; margin-bottom: 10px; color: #fff; padding-right: 60px; }
+        .info-row { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 6px; }
+        .nav-buttons { display: flex; gap: 10px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--card-border); }
+        .btn-nav { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.85rem; }
+        .btn-maps { background-color: #ffffff; color: #1e293b; }
+        .btn-waze { background-color: #33ccff; color: #000000; }
+        .btn-nav img { width: 20px; height: 20px; object-fit: contain; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🚗 Demanda BA - Automática</h1>
+    </header>
+
+    <div class="status-bar">
+        <span id="fecha-hoy">Cargando fecha...</span>
+        <span>Sincronizado 🔄</span>
+    </div>
+
+    <div class="section-title title-events">📌 Eventos Programados para Hoy</div>
+    <div id="lista-eventos">
+        <p style="color: var(--text-muted); text-align: center;">Cargando eventos en tiempo real...</p>
+    </div>
+
+    <div class="section-title title-airports">✈️ Picos en Aeropuertos</div>
+    <div class="card">
+        <span class="badge" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; border-color: #38bdf8;">Diario</span>
+        <h3>Aeropuerto Internacional de Ezeiza (EZE)</h3>
+        <div class="info-row">🕒 <b>Picos estimados:</b> 06:00 - 09:00 / 18:00 - 21:00 hs</div>
+        <div class="nav-buttons">
+            <a href="https://www.google.com/maps/search/?api=1&query=Aeropuerto+Internacional+Ezeiza" target="_blank" class="btn-nav btn-maps">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Maps_icon_%282020%29.svg" alt="Maps"> Maps
+            </a>
+            <a href="https://waze.com/ul?q=Aeropuerto+Internacional+Ezeiza&navigate=yes" target="_blank" class="btn-nav btn-waze">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Waze_icon_2020.svg" alt="Waze"> Waze
+            </a>
+        </div>
+    </div>
+
+    <script>
+        async function cargarDatos() {
+            document.getElementById('fecha-hoy').innerText = `Fecha: ${new Date().toLocaleDateString()}`;
+            try {
+                // Lee el archivo JSON generado automáticamente por GitHub Actions
+                const respuesta = await fetch('eventos.json?t=' + new Date().getTime());
+                const eventos = await respuesta.json();
+                
+                const contenedor = document.getElementById('lista-eventos');
+                contenedor.innerHTML = '';
+
+                eventos.forEach(ev => {
+                    contenedor.innerHTML += `
+                        <div class="card">
+                            <span class="badge">${ev.demanda}</span>
+                            <h3>${ev.titulo}</h3>
+                            <div class="info-row">🕒 <b>Horario:</b> ${ev.horario} (Salida: ${ev.salida})</div>
+                            <div class="info-row">👥 <b>Asistencia:</b> ${ev.asistencia}</div>
+                            <div class="info-row">📍 <b>Dirección:</b> ${ev.direccion}</div>
+                            <div class="nav-buttons">
+                                <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ev.direccion)}" target="_blank" class="btn-nav btn-maps">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Maps_icon_%282020%29.svg" alt="Maps"> Maps
+                                </a>
+                                <a href="https://waze.com/ul?q=${encodeURIComponent(ev.direccion)}&navigate=yes" target="_blank" class="btn-nav btn-waze">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Waze_icon_2020.svg" alt="Waze"> Waze
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                });
+            } catch (error) {
+                document.getElementById('lista-eventos').innerHTML = '<p style="color: #ef4444; text-align: center;">No se pudieron cargar los eventos automáticos hoy.</p>';
+            }
+        }
+        cargarDatos();
+    </script>
+</body>
+</html>
