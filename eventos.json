@@ -1,6 +1,218 @@
 {
-  "actualizado": null,
-  "fuentes": {},
-  "eventos": [],
-  "aviso": "Todavía no se ejecutó el actualizador."
+  "actualizado": "2026-10-31T19:44-03:00",
+  "fuentes": {
+    "Songkick Buenos Aires": {
+      "ok": true,
+      "cantidad": 41
+    },
+    "Songkick Rock": {
+      "ok": true,
+      "cantidad": 23
+    },
+    "Songkick Latin": {
+      "ok": true,
+      "cantidad": 13
+    },
+    "Songkick Movistar Arena": {
+      "ok": true,
+      "cantidad": 16
+    },
+    "Fútbol (notas de prensa)": {
+      "ok": true,
+      "cantidad": 10,
+      "notas_leidas": 12
+    }
+  },
+  "eventos": [
+    {
+      "tipo": "futbol",
+      "titulo": "Deportivo Riestra vs Talleres",
+      "fecha": "2026-10-31",
+      "hora": "17:00",
+      "salida_estimada": "19:00",
+      "lugar": "Guillermo Laza",
+      "direccion": "Nueva Pompeya, CABA",
+      "capacidad": 3000,
+      "importancia": "Media",
+      "fuente": "filo.news",
+      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
+      "local": "Deportivo Riestra",
+      "visitante": "Talleres",
+      "coincidencias": 3
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Vélez Sarsfield vs San Lorenzo",
+      "fecha": "2026-10-31",
+      "hora": "19:15",
+      "salida_estimada": "21:15",
+      "lugar": "José Amalfitani",
+      "direccion": "Av. Juan B. Justo 9200, Liniers",
+      "capacidad": 49000,
+      "importancia": "Crítica",
+      "fuente": "filo.news",
+      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
+      "local": "Vélez Sarsfield",
+      "visitante": "San Lorenzo",
+      "coincidencias": 3
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Boca Juniors vs River Plate",
+      "fecha": "2026-11-01",
+      "hora": "15:00",
+      "salida_estimada": "17:00",
+      "lugar": "La Bombonera",
+      "direccion": "Brandsen 805, La Boca",
+      "capacidad": 57000,
+      "importancia": "Crítica",
+      "fuente": "filo.news",
+      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
+      "local": "Boca Juniors",
+      "visitante": "River Plate",
+      "coincidencias": 3
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Jesse & Joy @ Movistar Arena",
+      "fecha": "2026-11-01",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43214234-jesse-and-joy-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Jesse & Joy"
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Platense vs Central Córdoba",
+      "fecha": "2026-11-02",
+      "hora": "19:00",
+      "salida_estimada": "21:00",
+      "lugar": "Ciudad de Vicente López",
+      "direccion": "Vicente López, Buenos Aires",
+      "capacidad": 25000,
+      "importancia": "Alta",
+      "fuente": "filo.news",
+      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
+      "local": "Platense",
+      "visitante": "Central Córdoba",
+      "coincidencias": 3
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Bersuit Vergarabat @ Movistar Arena",
+      "fecha": "2026-11-03",
+      "hora": null,
+      "salida_estimada": null,
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43319990-bersuit-vergarabat-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Bersuit Vergarabat"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Ocean Alley @ Palermo Groove",
+      "fecha": "2026-11-03",
+      "hora": null,
+      "salida_estimada": null,
+      "lugar": "Groove",
+      "direccion": "Av. Santa Fe 4389, Palermo",
+      "capacidad": 2000,
+      "importancia": "Baja",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43385281-ocean-alley-at-palermo-groove?utm_medium=organic&utm_source=microformat",
+      "artista": "Ocean Alley"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Bunbury @ Movistar Arena",
+      "fecha": "2026-11-04",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43098265-bunbury-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Bunbury"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Adanowsky @ La Trastienda",
+      "fecha": "2026-11-04",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "La Trastienda",
+      "direccion": "Balcarce 460, San Telmo",
+      "capacidad": 1000,
+      "importancia": "Baja",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43406492-adanowsky-at-la-trastienda?utm_medium=organic&utm_source=microformat",
+      "artista": "Adanowsky"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "OneUs @ Groove",
+      "fecha": "2026-11-04",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Groove",
+      "direccion": "Av. Santa Fe 4389, Palermo",
+      "capacidad": 2000,
+      "importancia": "Baja",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43457800-oneus-at-groove?utm_medium=organic&utm_source=microformat",
+      "artista": "OneUs"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Def Leppard @ Movistar Arena",
+      "fecha": "2026-11-05",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43257699-def-leppard-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Def Leppard, Extreme"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maneva @ La Trastienda",
+      "fecha": "2026-11-07",
+      "hora": "21:00",
+      "salida_estimada": "23:45",
+      "lugar": "La Trastienda",
+      "direccion": "Balcarce 460, San Telmo",
+      "capacidad": 1000,
+      "importancia": "Baja",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43367744-maneva-at-la-trastienda?utm_medium=organic&utm_source=microformat",
+      "artista": "Maneva"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Alex Ubago @ Teatro Gran Rex",
+      "fecha": "2026-11-07",
+      "hora": null,
+      "salida_estimada": null,
+      "lugar": "Teatro Gran Rex",
+      "direccion": "Av. Corrientes 857, San Nicolás",
+      "capacidad": 3300,
+      "importancia": "Media",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/42937060-alex-ubago-at-teatro-gran-rex?utm_medium=organic&utm_source=microformat",
+      "artista": "Alex Ubago"
+    }
+  ]
 }
