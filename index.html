@@ -24,7 +24,7 @@
         .section-title { font-size: 1.1rem; font-weight: 700; margin: 24px 0 12px 0; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 8px; border-bottom: 2px solid var(--card-border); padding-bottom: 6px; }
         .card { background: var(--card-bg); border-radius: 16px; padding: 16px; margin-bottom: 14px; border: 1px solid var(--card-border); position: relative; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); }
         .badge { position: absolute; top: 16px; right: 16px; padding: 4px 8px; border-radius: 6px; font-size: 0.7rem; font-weight: 700; background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
-        .card h3 { font-size: 1.1rem; margin-bottom: 10px; color: #fff; padding-right: 70px; }
+        .card h3 { font-size: 1.05rem; margin-bottom: 10px; color: #fff; padding-right: 70px; line-height: 1.3; }
         .info-row { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 6px; }
         .nav-buttons { display: flex; gap: 10px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--card-border); }
         .btn-nav { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: opacity 0.2s; }
@@ -57,28 +57,12 @@
     <div class="section-title" style="color: var(--accent-purple);">🎸 Espectáculos y Recitales</div>
     <div id="seccion-espectaculos"></div>
 
-    <!-- SECCIÓN AEROPUERTOS -->
-    <div class="section-title" style="color: var(--accent-blue);">✈️ Picos en Aeropuertos</div>
-    <div class="card">
-        <span class="badge" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; border-color: #38bdf8;">Diario</span>
-        <h3>Aeropuerto Internacional de Ezeiza (EZE)</h3>
-        <div class="info-row">🕒 <b>Picos estimados:</b> 06:00 - 09:00 / 18:00 - 21:00 hs</div>
-        <div class="nav-buttons">
-            <a href="https://www.google.com/maps/search/?api=1&query=Aeropuerto+Internacional+Ezeiza" target="_blank" class="btn-nav btn-maps">
-                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> Maps
-            </a>
-            <a href="https://waze.com/ul?q=Aeropuerto+Internacional+Ezeiza&navigate=yes" target="_blank" class="btn-nav btn-waze">
-                <svg viewBox="0 0 24 24"><path d="M18.57 5.72L15 4.5l-3 1-3-1-3.57 1.22C4.54 6.22 4 7.05 4 8v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-.95-.54-1.78-1.43-2.28zM12 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg> Waze
-            </a>
-        </div>
-    </div>
-
     <script>
         const iconoMaps = `<svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>`;
         const iconoWaze = `<svg viewBox="0 0 24 24"><path d="M18.57 5.72L15 4.5l-3 1-3-1-3.57 1.22C4.54 6.22 4 7.05 4 8v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-.95-.54-1.78-1.43-2.28zM12 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>`;
 
         async function cargarDatos() {
-            document.getElementById('fecha-hoy').innerText = `Fecha: ${new Date().toLocaleDateString()}`;
+            document.getElementById('fecha-hoy').innerText = `Actualizado: ${new Date().toLocaleDateString()}`;
             try {
                 const respuesta = await fetch('eventos.json?t=' + new Date().getTime());
                 const eventos = await respuesta.json();
@@ -92,6 +76,7 @@
                         <div class="card">
                             <span class="badge">${ev.demanda}</span>
                             <h3>${ev.titulo}</h3>
+                            <div class="info-row">📅 <b>Fecha:</b> ${ev.fecha}</div>
                             <div class="info-row">🕒 <b>Horario:</b> ${ev.horario} (Salida: ${ev.salida})</div>
                             <div class="info-row">👥 <b>Impacto:</b> ${ev.asistencia}</div>
                             <div class="info-row">📍 <b>Lugar:</b> ${ev.direccion}</div>
@@ -112,8 +97,8 @@
                 });
 
                 document.getElementById('seccion-clima').innerHTML = htmlClima || '<p style="color:var(--text-muted); font-size:0.9rem;">Sin alertas climáticas activas.</p>';
-                document.getElementById('seccion-deportes').innerHTML = htmlDeportes || '<p style="color:var(--text-muted); font-size:0.9rem;">No hay partidos masivos programados para hoy.</p>';
-                document.getElementById('seccion-espectaculos').innerHTML = htmlEspectaculos || '<p style="color:var(--text-muted); font-size:0.9rem;">No hay espectáculos programados para este horario.</p>';
+                document.getElementById('seccion-deportes').innerHTML = htmlDeportes || '<p style="color:var(--text-muted); font-size:0.9rem;">No hay partidos masivos programados.</p>';
+                document.getElementById('seccion-espectaculos').innerHTML = htmlEspectaculos || '<p style="color:var(--text-muted); font-size:0.9rem;">No hay espectáculos programados.</p>';
 
             } catch (error) {
                 console.error(error);
