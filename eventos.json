@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-31T21:48-03:00",
+  "actualizado": "2026-11-01T00:45-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -20,42 +20,10 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 11,
-      "notas_leidas": 12
+      "notas_leidas": 13
     }
   },
   "eventos": [
-    {
-      "tipo": "futbol",
-      "titulo": "Deportivo Riestra vs Talleres",
-      "fecha": "2026-10-31",
-      "hora": "17:00",
-      "salida_estimada": "19:00",
-      "lugar": "Guillermo Laza",
-      "direccion": "Nueva Pompeya, CABA",
-      "capacidad": 3000,
-      "importancia": "Media",
-      "fuente": "filo.news",
-      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
-      "local": "Deportivo Riestra",
-      "visitante": "Talleres",
-      "coincidencias": 3
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Vélez Sarsfield vs San Lorenzo",
-      "fecha": "2026-10-31",
-      "hora": "19:15",
-      "salida_estimada": "21:15",
-      "lugar": "José Amalfitani",
-      "direccion": "Av. Juan B. Justo 9200, Liniers",
-      "capacidad": 49000,
-      "importancia": "Crítica",
-      "fuente": "filo.news",
-      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
-      "local": "Vélez Sarsfield",
-      "visitante": "San Lorenzo",
-      "coincidencias": 3
-    },
     {
       "tipo": "futbol",
       "titulo": "Boca Juniors vs River Plate",
