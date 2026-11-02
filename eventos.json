@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01T18:30-03:00",
+  "actualizado": "2026-11-01T21:50-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -20,7 +20,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 10,
-      "notas_leidas": 12
+      "notas_leidas": 13
     }
   },
   "eventos": [
@@ -38,7 +38,7 @@
       "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
       "local": "Boca Juniors",
       "visitante": "River Plate",
-      "coincidencias": 3
+      "coincidencias": 2
     },
     {
       "tipo": "recital",
