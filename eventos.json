@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-01T21:50-03:00",
+  "actualizado": "2026-11-02T00:49-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 42
+      "cantidad": 43
     },
     "Songkick Rock": {
       "ok": true,
-      "cantidad": 23
+      "cantidad": 22
     },
     "Songkick Latin": {
       "ok": true,
-      "cantidad": 13
+      "cantidad": 12
     },
     "Songkick Movistar Arena": {
       "ok": true,
@@ -20,40 +20,10 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 10,
-      "notas_leidas": 13
+      "notas_leidas": 16
     }
   },
   "eventos": [
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs River Plate",
-      "fecha": "2026-11-01",
-      "hora": "15:00",
-      "salida_estimada": "17:00",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "filo.news",
-      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
-      "local": "Boca Juniors",
-      "visitante": "River Plate",
-      "coincidencias": 2
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Jesse & Joy @ Movistar Arena",
-      "fecha": "2026-11-01",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43214234-jesse-and-joy-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Jesse & Joy"
-    },
     {
       "tipo": "futbol",
       "titulo": "Platense vs Central Córdoba",
