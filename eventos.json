@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02T15:49-03:00",
+  "actualizado": "2026-11-02T18:37-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,8 +19,8 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 10,
-      "notas_leidas": 18
+      "cantidad": 6,
+      "notas_leidas": 16
     }
   },
   "eventos": [
@@ -38,7 +38,7 @@
       "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
       "local": "Platense",
       "visitante": "Central Córdoba",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "recital",
