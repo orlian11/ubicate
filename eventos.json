@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-02T18:37-03:00",
+  "actualizado": "2026-11-02T21:49-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 42
+      "cantidad": 41
     },
     "Songkick Rock": {
       "ok": true,
@@ -19,8 +19,8 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 6,
-      "notas_leidas": 16
+      "cantidad": 10,
+      "notas_leidas": 18
     }
   },
   "eventos": [
@@ -34,11 +34,11 @@
       "direccion": "Vicente López, Buenos Aires",
       "capacidad": 25000,
       "importancia": "Alta",
-      "fuente": "filo.news",
-      "url": "https://www.filo.news/noticia/2026/10/30/arranca-la-fecha-15-del-torneo-clausura-2026-dias-horarios-y-tv-de-los-partidos",
+      "fuente": "futbolargentino.com",
+      "url": "https://www.futbolargentino.com/primera-division/noticias/fecha-15-del-torneo-clausura-de-la-liga-profesional-programacion-horarios-y-tabla-de-posiciones-609288",
       "local": "Platense",
       "visitante": "Central Córdoba",
-      "coincidencias": 5
+      "coincidencias": 3
     },
     {
       "tipo": "recital",
