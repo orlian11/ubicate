@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T03:56-03:00",
+  "actualizado": "2026-11-03T06:51-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,8 +19,8 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 13,
-      "notas_leidas": 20
+      "cantidad": 14,
+      "notas_leidas": 22
     }
   },
   "eventos": [
@@ -122,7 +122,23 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Barracas Central",
       "visitante": "Racing Club",
-      "coincidencias": 2
+      "coincidencias": 4
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Boca Juniors vs Defensa y Justicia",
+      "fecha": "2026-11-06",
+      "hora": "17:30",
+      "salida_estimada": "19:30",
+      "lugar": "La Bombonera",
+      "direccion": "Brandsen 805, La Boca",
+      "capacidad": 57000,
+      "importancia": "Crítica",
+      "fuente": "tycsports.com",
+      "url": "https://www.tycsports.com/liga-profesional-de-futbol/asi-juega-ultima-programacion-definitoria-fecha-16-torneo-clausura-id770074.html",
+      "local": "Boca Juniors",
+      "visitante": "Defensa y Justicia",
+      "coincidencias": 1
     },
     {
       "tipo": "futbol",
@@ -138,7 +154,7 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 5
+      "coincidencias": 8
     },
     {
       "tipo": "futbol",
@@ -154,7 +170,7 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 5
+      "coincidencias": 8
     },
     {
       "tipo": "futbol",
@@ -170,7 +186,7 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 2
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
@@ -186,7 +202,7 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 2
+      "coincidencias": 3
     },
     {
       "tipo": "recital",
