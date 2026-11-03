@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-03T15:42-03:00",
+  "actualizado": "2026-11-03T18:37-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 41
+      "cantidad": 40
     },
     "Songkick Rock": {
       "ok": true,
@@ -19,8 +19,8 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 11,
-      "notas_leidas": 20
+      "cantidad": 10,
+      "notas_leidas": 18
     }
   },
   "eventos": [
@@ -122,7 +122,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Barracas Central",
       "visitante": "Racing Club",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -138,7 +138,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -154,7 +154,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -170,7 +170,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 5
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -186,7 +186,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 5
+      "coincidencias": 6
     },
     {
       "tipo": "recital",
