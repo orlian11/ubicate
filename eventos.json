@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T00:44-03:00",
+  "actualizado": "2026-11-03T03:56-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -20,7 +20,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 13,
-      "notas_leidas": 17
+      "notas_leidas": 20
     }
   },
   "eventos": [
@@ -118,11 +118,11 @@
       "direccion": "Barracas, CABA",
       "capacidad": 7000,
       "importancia": "Media",
-      "fuente": "tn.com.ar",
-      "url": "https://tn.com.ar/deportes/futbol/2026/11/02/finalizo-la-fecha-15-del-clausura-2026-resultados-posiciones-proximos-partidos-tabla-anual-y-fixture-completo/",
+      "fuente": "lanacion.com.ar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Barracas Central",
       "visitante": "Racing Club",
-      "coincidencias": 1
+      "coincidencias": 2
     },
     {
       "tipo": "futbol",
@@ -134,11 +134,11 @@
       "direccion": "Av. Perito Moreno 7000, Bajo Flores",
       "capacidad": 47000,
       "importancia": "Crítica",
-      "fuente": "deportv.gob.ar",
-      "url": "https://deportv.gob.ar/futbol/conocieron-dias-horarios-definicion-tabla-anual-boca-argentinos-central-nid:18594",
+      "fuente": "lanacion.com.ar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 3
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -150,11 +150,11 @@
       "direccion": "Av. Bochini 751, Avellaneda",
       "capacidad": 52000,
       "importancia": "Crítica",
-      "fuente": "deportv.gob.ar",
-      "url": "https://deportv.gob.ar/futbol/conocieron-dias-horarios-definicion-tabla-anual-boca-argentinos-central-nid:18594",
+      "fuente": "lanacion.com.ar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 3
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -166,11 +166,11 @@
       "direccion": "Gavilán 2151, La Paternal",
       "capacidad": 26000,
       "importancia": "Alta",
-      "fuente": "tn.com.ar",
-      "url": "https://tn.com.ar/deportes/futbol/2026/11/02/finalizo-la-fecha-15-del-clausura-2026-resultados-posiciones-proximos-partidos-tabla-anual-y-fixture-completo/",
+      "fuente": "lanacion.com.ar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 1
+      "coincidencias": 2
     },
     {
       "tipo": "futbol",
@@ -182,11 +182,11 @@
       "direccion": "Brandsen 805, La Boca",
       "capacidad": 57000,
       "importancia": "Crítica",
-      "fuente": "tn.com.ar",
-      "url": "https://tn.com.ar/deportes/futbol/2026/11/02/finalizo-la-fecha-15-del-clausura-2026-resultados-posiciones-proximos-partidos-tabla-anual-y-fixture-completo/",
+      "fuente": "lanacion.com.ar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 1
+      "coincidencias": 2
     },
     {
       "tipo": "recital",
