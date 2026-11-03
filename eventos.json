@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T06:51-03:00",
+  "actualizado": "2026-11-03T09:53-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -7,7 +7,7 @@
     },
     "Songkick Rock": {
       "ok": true,
-      "cantidad": 22
+      "cantidad": 21
     },
     "Songkick Latin": {
       "ok": true,
@@ -19,8 +19,8 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 14,
-      "notas_leidas": 22
+      "cantidad": 8,
+      "notas_leidas": 21
     }
   },
   "eventos": [
@@ -154,7 +154,7 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 8
+      "coincidencias": 7
     },
     {
       "tipo": "futbol",
@@ -170,7 +170,7 @@
       "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 8
+      "coincidencias": 7
     },
     {
       "tipo": "futbol",
