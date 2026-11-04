@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-04T00:45-03:00",
+  "actualizado": "2026-11-04T03:59-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 42
+      "cantidad": 40
     },
     "Songkick Rock": {
       "ok": true,
-      "cantidad": 23
+      "cantidad": 22
     },
     "Songkick Latin": {
       "ok": true,
-      "cantidad": 14
+      "cantidad": 13
     },
     "Songkick Movistar Arena": {
       "ok": true,
@@ -20,7 +20,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 17
+      "notas_leidas": 18
     }
   },
   "eventos": [
