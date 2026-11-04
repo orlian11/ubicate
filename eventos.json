@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-03T21:50-03:00",
+  "actualizado": "2026-11-04T00:45-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 40
+      "cantidad": 42
     },
     "Songkick Rock": {
       "ok": true,
@@ -20,38 +20,10 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 19
+      "notas_leidas": 17
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Bersuit Vergarabat @ Movistar Arena",
-      "fecha": "2026-11-03",
-      "hora": null,
-      "salida_estimada": null,
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43319990-bersuit-vergarabat-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Bersuit Vergarabat"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Ocean Alley @ Palermo Groove",
-      "fecha": "2026-11-03",
-      "hora": null,
-      "salida_estimada": null,
-      "lugar": "Groove",
-      "direccion": "Av. Santa Fe 4389, Palermo",
-      "capacidad": 2000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43385281-ocean-alley-at-palermo-groove?utm_medium=organic&utm_source=microformat",
-      "artista": "Ocean Alley"
-    },
     {
       "tipo": "recital",
       "titulo": "Bunbury @ Movistar Arena",
@@ -217,6 +189,20 @@
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/42937060-alex-ubago-at-teatro-gran-rex?utm_medium=organic&utm_source=microformat",
       "artista": "Alex Ubago"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Catupecu Machu @ Teatro Vorterix",
+      "fecha": "2026-11-11",
+      "hora": null,
+      "salida_estimada": null,
+      "lugar": "Teatro Vorterix",
+      "direccion": "Av. Federico Lacroze 3455, Colegiales",
+      "capacidad": 2000,
+      "importancia": "Baja",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43484669-catupecu-machu-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
+      "artista": "Catupecu Machu"
     }
   ]
 }
