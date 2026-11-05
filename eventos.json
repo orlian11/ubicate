@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-04T21:51-03:00",
+  "actualizado": "2026-11-05T00:50-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 40
+      "cantidad": 38
     },
     "Songkick Rock": {
       "ok": true,
@@ -20,52 +20,10 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 18
+      "notas_leidas": 20
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Bunbury @ Movistar Arena",
-      "fecha": "2026-11-04",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43098265-bunbury-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Bunbury"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Adanowsky @ La Trastienda",
-      "fecha": "2026-11-04",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "La Trastienda",
-      "direccion": "Balcarce 460, San Telmo",
-      "capacidad": 1000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43406492-adanowsky-at-la-trastienda?utm_medium=organic&utm_source=microformat",
-      "artista": "Adanowsky"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "OneUs @ Groove",
-      "fecha": "2026-11-04",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Groove",
-      "direccion": "Av. Santa Fe 4389, Palermo",
-      "capacidad": 2000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43457800-oneus-at-groove?utm_medium=organic&utm_source=microformat",
-      "artista": "OneUs"
-    },
     {
       "tipo": "recital",
       "titulo": "Def Leppard @ Movistar Arena",
@@ -94,7 +52,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Barracas Central",
       "visitante": "Racing Club",
-      "coincidencias": 5
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -110,7 +68,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 5,
+      "coincidencias": 3,
       "aviso": "Las fuentes difieren en el horario: confirmar"
     },
     {
@@ -127,7 +85,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 5,
+      "coincidencias": 3,
       "aviso": "Las fuentes difieren en el horario: confirmar"
     },
     {
@@ -144,7 +102,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 8
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -160,7 +118,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 8
+      "coincidencias": 6
     },
     {
       "tipo": "recital",
@@ -203,6 +161,38 @@
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/43484669-catupecu-machu-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
       "artista": "Catupecu Machu"
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Argentinos Juniors vs Huracán",
+      "fecha": "2026-11-12",
+      "hora": "17:30",
+      "salida_estimada": "19:30",
+      "lugar": "Diego A. Maradona",
+      "direccion": "Gavilán 2151, La Paternal",
+      "capacidad": 26000,
+      "importancia": "Alta",
+      "fuente": "ligaprofesional.ar",
+      "url": "https://www.ligaprofesional.ar/notas/primera/2026/11/02/dias-y-horarios-de-la-fecha-16-2/",
+      "local": "Argentinos Juniors",
+      "visitante": "Huracán",
+      "coincidencias": 1
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Boca Juniors vs Defensa y Justicia",
+      "fecha": "2026-11-12",
+      "hora": "17:30",
+      "salida_estimada": "19:30",
+      "lugar": "La Bombonera",
+      "direccion": "Brandsen 805, La Boca",
+      "capacidad": 57000,
+      "importancia": "Crítica",
+      "fuente": "ligaprofesional.ar",
+      "url": "https://www.ligaprofesional.ar/notas/primera/2026/11/02/dias-y-horarios-de-la-fecha-16-2/",
+      "local": "Boca Juniors",
+      "visitante": "Defensa y Justicia",
+      "coincidencias": 1
     }
   ]
 }
