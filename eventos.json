@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-04T18:43-03:00",
+  "actualizado": "2026-11-04T21:51-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -20,7 +20,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 20
+      "notas_leidas": 18
     }
   },
   "eventos": [
@@ -110,7 +110,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 3,
+      "coincidencias": 5,
       "aviso": "Las fuentes difieren en el horario: confirmar"
     },
     {
@@ -127,7 +127,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 3,
+      "coincidencias": 5,
       "aviso": "Las fuentes difieren en el horario: confirmar"
     },
     {
@@ -144,7 +144,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 6
+      "coincidencias": 8
     },
     {
       "tipo": "futbol",
@@ -160,7 +160,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 6
+      "coincidencias": 8
     },
     {
       "tipo": "recital",
