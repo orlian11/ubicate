@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-06T04:02-03:00",
+  "actualizado": "2026-11-06T06:56-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 38
+      "cantidad": 39
     },
     "Songkick Rock": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 10,
+      "cantidad": 11,
       "notas_leidas": 19
     }
   },
@@ -38,7 +38,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Barracas Central",
       "visitante": "Racing Club",
-      "coincidencias": 6
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -54,7 +54,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "San Lorenzo",
       "visitante": "Platense",
-      "coincidencias": 7
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -70,7 +70,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Independiente",
       "visitante": "Deportivo Riestra",
-      "coincidencias": 7
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -86,7 +86,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 8
+      "coincidencias": 7
     },
     {
       "tipo": "futbol",
@@ -102,7 +102,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 8
+      "coincidencias": 7
     },
     {
       "tipo": "recital",
