@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-06T21:49-03:00",
+  "actualizado": "2026-11-07T00:42-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 38
+      "cantidad": 41
     },
     "Songkick Rock": {
       "ok": true,
@@ -19,61 +19,11 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 12,
+      "cantidad": 10,
       "notas_leidas": 19
     }
   },
   "eventos": [
-    {
-      "tipo": "futbol",
-      "titulo": "Barracas Central vs Racing Club",
-      "fecha": "2026-11-06",
-      "hora": "15:00",
-      "salida_estimada": "17:00",
-      "lugar": "Claudio Fabián Tapia",
-      "direccion": "Barracas, CABA",
-      "capacidad": 7000,
-      "importancia": "Media",
-      "fuente": "elgrafico.com.ar",
-      "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
-      "local": "Barracas Central",
-      "visitante": "Racing Club",
-      "coincidencias": 5
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "San Lorenzo vs Platense",
-      "fecha": "2026-11-06",
-      "hora": "19:00",
-      "salida_estimada": "21:00",
-      "lugar": "Nuevo Gasómetro",
-      "direccion": "Av. Perito Moreno 7000, Bajo Flores",
-      "capacidad": 47000,
-      "importancia": "Crítica",
-      "fuente": "elgrafico.com.ar",
-      "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
-      "local": "San Lorenzo",
-      "visitante": "Platense",
-      "coincidencias": 5,
-      "aviso": "Las fuentes difieren en el horario: confirmar"
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Independiente vs Deportivo Riestra",
-      "fecha": "2026-11-06",
-      "hora": "19:00",
-      "salida_estimada": "21:00",
-      "lugar": "Libertadores de América (Avellaneda)",
-      "direccion": "Av. Bochini 751, Avellaneda",
-      "capacidad": 52000,
-      "importancia": "Crítica",
-      "fuente": "elgrafico.com.ar",
-      "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
-      "local": "Independiente",
-      "visitante": "Deportivo Riestra",
-      "coincidencias": 5,
-      "aviso": "Las fuentes difieren en el horario: confirmar"
-    },
     {
       "tipo": "futbol",
       "titulo": "Argentinos Juniors vs Huracán",
@@ -88,7 +38,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 7
+      "coincidencias": 8
     },
     {
       "tipo": "futbol",
@@ -104,7 +54,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 7
+      "coincidencias": 8
     },
     {
       "tipo": "recital",
@@ -149,38 +99,6 @@
       "artista": "Catupecu Machu"
     },
     {
-      "tipo": "futbol",
-      "titulo": "Argentinos Juniors vs Huracán",
-      "fecha": "2026-11-12",
-      "hora": "17:30",
-      "salida_estimada": "19:30",
-      "lugar": "Diego A. Maradona",
-      "direccion": "Gavilán 2151, La Paternal",
-      "capacidad": 26000,
-      "importancia": "Alta",
-      "fuente": "deportv.gob.ar",
-      "url": "https://deportv.gob.ar/futbol/fecha-16-conocieron-dias-arbitros-horarios-definicion-tabla-anual-boca-argentinos-rosario-central-nid:18594",
-      "local": "Argentinos Juniors",
-      "visitante": "Huracán",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs Defensa y Justicia",
-      "fecha": "2026-11-12",
-      "hora": "17:30",
-      "salida_estimada": "19:30",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "deportv.gob.ar",
-      "url": "https://deportv.gob.ar/futbol/fecha-16-conocieron-dias-arbitros-horarios-definicion-tabla-anual-boca-argentinos-rosario-central-nid:18594",
-      "local": "Boca Juniors",
-      "visitante": "Defensa y Justicia",
-      "coincidencias": 1
-    },
-    {
       "tipo": "recital",
       "titulo": "Maria Becerra @ Movistar Arena",
       "fecha": "2026-11-13",
@@ -192,6 +110,34 @@
       "importancia": "Alta",
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/43214227-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Romeo Santos @ Estadio José Amalfitani (Vélez Sarsfield)",
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "José Amalfitani (Vélez)",
+      "direccion": "Av. Juan B. Justo 9200, Liniers",
+      "capacidad": 49000,
+      "importancia": "Crítica",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43233228-romeo-santos-at-estadio-jose-amalfitani?utm_medium=organic&utm_source=microformat",
+      "artista": "Romeo Santos, Prince Royce"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43214232-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
       "artista": "Maria Becerra"
     }
   ]
