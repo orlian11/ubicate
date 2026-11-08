@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07T18:30-03:00",
+  "actualizado": "2026-11-07T21:49-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -20,7 +20,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 21
+      "notas_leidas": 19
     }
   },
   "eventos": [
@@ -38,7 +38,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Argentinos Juniors",
       "visitante": "Huracán",
-      "coincidencias": 7
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -54,7 +54,7 @@
       "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
       "local": "Boca Juniors",
       "visitante": "Defensa y Justicia",
-      "coincidencias": 7
+      "coincidencias": 6
     },
     {
       "tipo": "recital",
