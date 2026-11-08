@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07T21:49-03:00",
+  "actualizado": "2026-11-08T00:46-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -20,70 +20,10 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 19
+      "notas_leidas": 20
     }
   },
   "eventos": [
-    {
-      "tipo": "futbol",
-      "titulo": "Argentinos Juniors vs Huracán",
-      "fecha": "2026-11-07",
-      "hora": "17:30",
-      "salida_estimada": "19:30",
-      "lugar": "Diego A. Maradona",
-      "direccion": "Gavilán 2151, La Paternal",
-      "capacidad": 26000,
-      "importancia": "Alta",
-      "fuente": "elgrafico.com.ar",
-      "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
-      "local": "Argentinos Juniors",
-      "visitante": "Huracán",
-      "coincidencias": 6
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs Defensa y Justicia",
-      "fecha": "2026-11-07",
-      "hora": "17:30",
-      "salida_estimada": "19:30",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "elgrafico.com.ar",
-      "url": "https://www.elgrafico.com.ar/articulo/primera-division/103716/fecha-16-del-clausura-2026-dias-y-horarios-confirmados-para-la-definicion-de-la-liga-profesional",
-      "local": "Boca Juniors",
-      "visitante": "Defensa y Justicia",
-      "coincidencias": 6
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maneva @ La Trastienda",
-      "fecha": "2026-11-07",
-      "hora": "21:00",
-      "salida_estimada": "23:45",
-      "lugar": "La Trastienda",
-      "direccion": "Balcarce 460, San Telmo",
-      "capacidad": 1000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43367744-maneva-at-la-trastienda?utm_medium=organic&utm_source=microformat",
-      "artista": "Maneva"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Alex Ubago @ Teatro Gran Rex",
-      "fecha": "2026-11-07",
-      "hora": null,
-      "salida_estimada": null,
-      "lugar": "Teatro Gran Rex",
-      "direccion": "Av. Corrientes 857, San Nicolás",
-      "capacidad": 3300,
-      "importancia": "Media",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/42937060-alex-ubago-at-teatro-gran-rex?utm_medium=organic&utm_source=microformat",
-      "artista": "Alex Ubago"
-    },
     {
       "tipo": "recital",
       "titulo": "Catupecu Machu @ Teatro Vorterix",
@@ -171,6 +111,34 @@
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/43214232-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
       "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43257709-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "La La Love You @ La Trastienda",
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "salida_estimada": "23:45",
+      "lugar": "La Trastienda",
+      "direccion": "Balcarce 460, San Telmo",
+      "capacidad": 1000,
+      "importancia": "Baja",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43395746-la-la-love-you-at-la-trastienda?utm_medium=organic&utm_source=microformat",
+      "artista": "La La Love You"
     }
   ]
 }
