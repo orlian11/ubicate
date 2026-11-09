@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-09T15:48-03:00",
+  "actualizado": "2026-11-09T18:44-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 46
+      "cantidad": 45
     },
     "Songkick Rock": {
       "ok": true,
@@ -20,7 +20,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 12,
-      "notas_leidas": 20
+      "notas_leidas": 19
     }
   },
   "eventos": [
