@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-10T18:36-03:00",
+  "actualizado": "2026-11-10T21:50-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,8 +19,8 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 7,
-      "notas_leidas": 14
+      "cantidad": 5,
+      "notas_leidas": 17
     }
   },
   "eventos": [
@@ -37,38 +37,6 @@
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/43484669-catupecu-machu-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
       "artista": "Catupecu Machu"
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Argentinos Juniors vs Huracán",
-      "fecha": "2026-11-12",
-      "hora": "17:30",
-      "salida_estimada": "19:30",
-      "lugar": "Diego A. Maradona",
-      "direccion": "Gavilán 2151, La Paternal",
-      "capacidad": 26000,
-      "importancia": "Alta",
-      "fuente": "deportv.gob.ar",
-      "url": "https://deportv.gob.ar/futbol/fecha-16-conocieron-dias-arbitros-horarios-definicion-tabla-anual-boca-argentinos-rosario-central-nid:18594",
-      "local": "Argentinos Juniors",
-      "visitante": "Huracán",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs Defensa y Justicia",
-      "fecha": "2026-11-12",
-      "hora": "17:30",
-      "salida_estimada": "19:30",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "deportv.gob.ar",
-      "url": "https://deportv.gob.ar/futbol/fecha-16-conocieron-dias-arbitros-horarios-definicion-tabla-anual-boca-argentinos-rosario-central-nid:18594",
-      "local": "Boca Juniors",
-      "visitante": "Defensa y Justicia",
-      "coincidencias": 1
     },
     {
       "tipo": "recital",
