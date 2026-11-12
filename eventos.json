@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-11T21:58-03:00",
+  "actualizado": "2026-11-12T00:48-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,25 +19,11 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 10,
-      "notas_leidas": 14
+      "cantidad": 9,
+      "notas_leidas": 16
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Catupecu Machu @ Teatro Vorterix",
-      "fecha": "2026-11-11",
-      "hora": null,
-      "salida_estimada": null,
-      "lugar": "Teatro Vorterix",
-      "direccion": "Av. Federico Lacroze 3455, Colegiales",
-      "capacidad": 2000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43484669-catupecu-machu-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
-      "artista": "Catupecu Machu"
-    },
     {
       "tipo": "recital",
       "titulo": "Maria Becerra @ Movistar Arena",
@@ -163,6 +149,20 @@
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/43398971-easykid-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
       "artista": "Easykid"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43257715-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
     }
   ]
 }
