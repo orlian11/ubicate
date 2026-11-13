@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T09:56-03:00",
+  "actualizado": "2026-11-13T12:43-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 12,
+      "cantidad": 9,
       "notas_leidas": 12
     }
   },
@@ -174,8 +174,8 @@
       "direccion": "Av. Juan B. Justo 9200, Liniers",
       "capacidad": 49000,
       "importancia": "Crítica",
-      "fuente": "ambito.com",
-      "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
       "coincidencias": 2
