@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T21:55-03:00",
+  "actualizado": "2026-11-13T00:48-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 4,
+      "cantidad": 9,
       "notas_leidas": 12
     }
   },
@@ -163,6 +163,22 @@
       "fuente": "Songkick Buenos Aires",
       "url": "https://www.songkick.com/es/concerts/43257715-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
       "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Vélez Sarsfield vs Belgrano",
+      "fecha": "2026-11-20",
+      "hora": "20:00",
+      "salida_estimada": "22:00",
+      "lugar": "José Amalfitani",
+      "direccion": "Av. Juan B. Justo 9200, Liniers",
+      "capacidad": 49000,
+      "importancia": "Crítica",
+      "fuente": "ambito.com",
+      "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
+      "local": "Vélez Sarsfield",
+      "visitante": "Belgrano",
+      "coincidencias": 3
     }
   ]
 }
