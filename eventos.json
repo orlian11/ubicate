@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T06:53-03:00",
+  "actualizado": "2026-11-13T09:56-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 7,
+      "cantidad": 12,
       "notas_leidas": 12
     }
   },
@@ -178,7 +178,7 @@
       "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 3
+      "coincidencias": 2
     }
   ]
 }
