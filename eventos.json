@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-14T00:44-03:00",
+  "actualizado": "2026-11-14T03:51-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 46
+      "cantidad": 48
     },
     "Songkick Rock": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 9,
+      "cantidad": 4,
       "notas_leidas": 11
     }
   },
@@ -160,8 +160,8 @@
       "direccion": "Av. Juan B. Justo 9200, Liniers",
       "capacidad": 49000,
       "importancia": "Crítica",
-      "fuente": "ambito.com",
-      "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
       "coincidencias": 2
@@ -176,8 +176,8 @@
       "direccion": "Gavilán 2151, La Paternal",
       "capacidad": 26000,
       "importancia": "Alta",
-      "fuente": "ambito.com",
-      "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
       "coincidencias": 2
