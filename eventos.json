@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-13T21:50-03:00",
+  "actualizado": "2026-11-14T00:44-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 47
+      "cantidad": 46
     },
     "Songkick Rock": {
       "ok": true,
@@ -20,24 +20,10 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 9,
-      "notas_leidas": 10
+      "notas_leidas": 11
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-13",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43214227-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
     {
       "tipo": "recital",
       "titulo": "Romeo Santos @ Estadio José Amalfitani (Vélez Sarsfield)",
@@ -174,10 +160,26 @@
       "direccion": "Av. Juan B. Justo 9200, Liniers",
       "capacidad": 49000,
       "importancia": "Crítica",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "ambito.com",
+      "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
+      "coincidencias": 2
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Argentinos Juniors vs Independiente",
+      "fecha": "2026-11-21",
+      "hora": "17:00",
+      "salida_estimada": "19:00",
+      "lugar": "Diego A. Maradona",
+      "direccion": "Gavilán 2151, La Paternal",
+      "capacidad": 26000,
+      "importancia": "Alta",
+      "fuente": "ambito.com",
+      "url": "https://www.ambito.com/deportes/torneo-clausura-2026-confirmaron-los-dias-y-horarios-los-octavos-final-river-lanus-y-boca-independiente-rivadavia-n6344436",
+      "local": "Argentinos Juniors",
+      "visitante": "Independiente",
       "coincidencias": 2
     }
   ]
