@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-14T21:51-03:00",
+  "actualizado": "2026-11-15T00:47-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 48
+      "cantidad": 47
     },
     "Songkick Rock": {
       "ok": true,
@@ -24,34 +24,6 @@
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Romeo Santos @ Estadio José Amalfitani (Vélez Sarsfield)",
-      "fecha": "2026-11-14",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "José Amalfitani (Vélez)",
-      "direccion": "Av. Juan B. Justo 9200, Liniers",
-      "capacidad": 49000,
-      "importancia": "Crítica",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43233228-romeo-santos-at-estadio-jose-amalfitani?utm_medium=organic&utm_source=microformat",
-      "artista": "Romeo Santos, Prince Royce"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-14",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43214232-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
     {
       "tipo": "recital",
       "titulo": "Maria Becerra @ Movistar Arena",
@@ -180,6 +152,22 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
+      "coincidencias": 2
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "River Plate vs Lanús",
+      "fecha": "2026-11-22",
+      "hora": "19:00",
+      "salida_estimada": "21:00",
+      "lugar": "Estadio Mas Monumental",
+      "direccion": "Av. Pres. Figueroa Alcorta 7597, Núñez",
+      "capacidad": 85000,
+      "importancia": "Crítica",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "local": "River Plate",
+      "visitante": "Lanús",
       "coincidencias": 2
     }
   ]
