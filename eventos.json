@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-15T22:08-03:00",
+  "actualizado": "2026-11-16T01:02-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": true,
-      "cantidad": 48
+      "cantidad": 50
     },
     "Songkick Rock": {
       "ok": true,
@@ -24,34 +24,6 @@
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-15",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43257709-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "La La Love You @ La Trastienda",
-      "fecha": "2026-11-15",
-      "hora": "21:00",
-      "salida_estimada": "23:45",
-      "lugar": "La Trastienda",
-      "direccion": "Balcarce 460, San Telmo",
-      "capacidad": 1000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43395746-la-la-love-you-at-la-trastienda?utm_medium=organic&utm_source=microformat",
-      "artista": "La La Love You"
-    },
     {
       "tipo": "recital",
       "titulo": "Maria Becerra @ Movistar Arena",
