@@ -1,27 +1,30 @@
 {
-  "actualizado": "2026-11-16T21:54-03:00",
+  "actualizado": "2026-11-17T00:49-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 29,
+      "cantidad": 14,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
-      "ok": true,
-      "cantidad": 21
+      "ok": false,
+      "cantidad": 0,
+      "error": "HTTP 406"
     },
     "Songkick Latin": {
-      "ok": true,
-      "cantidad": 14
+      "ok": false,
+      "cantidad": 0,
+      "error": "HTTP 406"
     },
     "Songkick Movistar Arena": {
-      "ok": true,
-      "cantidad": 16
+      "ok": false,
+      "cantidad": 0,
+      "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 4,
-      "notas_leidas": 9
+      "notas_leidas": 8
     }
   },
   "eventos": [
@@ -109,7 +112,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 2
+      "coincidencias": 1
     },
     {
       "tipo": "futbol",
@@ -125,7 +128,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 2
+      "coincidencias": 1
     },
     {
       "tipo": "futbol",
@@ -141,7 +144,21 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 2
+      "coincidencias": 1
+    },
+    {
+      "tipo": "recital",
+      "titulo": "ZZ Top @ Movistar Arena",
+      "fecha": "2026-11-24",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "ZZ Top"
     }
   ]
 }
