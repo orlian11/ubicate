@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-11-18T00:50-03:00",
+  "actualizado": "2026-11-18T04:05-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 14,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
       "ok": false,
-      "cantidad": 21,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Latin": {
@@ -28,62 +28,6 @@
     }
   },
   "eventos": [
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43257714-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Paula Mattheus @ La Trastienda",
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "La Trastienda",
-      "direccion": "Balcarce 460, San Telmo",
-      "capacidad": 1000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43285497-paula-mattheus-at-la-trastienda?utm_medium=organic&utm_source=microformat",
-      "artista": "Paula Mattheus"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Easykid @ Teatro Vorterix",
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Teatro Vorterix",
-      "direccion": "Av. Federico Lacroze 3455, Colegiales",
-      "capacidad": 2000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43398971-easykid-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
-      "artista": "Easykid"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-19",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43257715-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
     {
       "tipo": "futbol",
       "titulo": "Vélez Sarsfield vs Belgrano",
@@ -131,20 +75,6 @@
       "local": "River Plate",
       "visitante": "Lanús",
       "coincidencias": 2
-    },
-    {
-      "tipo": "recital",
-      "titulo": "ZZ Top @ Movistar Arena",
-      "fecha": "2026-11-24",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "ZZ Top"
     },
     {
       "tipo": "futbol",
