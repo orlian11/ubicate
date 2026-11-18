@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T09:59-03:00",
+  "actualizado": "2026-11-18T12:54-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -24,7 +24,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 4,
-      "notas_leidas": 11
+      "notas_leidas": 12
     }
   },
   "eventos": [
@@ -42,7 +42,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 2
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
@@ -58,7 +58,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 2
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
@@ -74,7 +74,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 2
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
