@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T18:47-03:00",
+  "actualizado": "2026-11-18T21:59-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -18,16 +18,44 @@
     },
     "Songkick Movistar Arena": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 8,
       "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 4,
-      "notas_leidas": 10
+      "notas_leidas": 9
     }
   },
   "eventos": [
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-18",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43257714-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43257715-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
     {
       "tipo": "futbol",
       "titulo": "Vélez Sarsfield vs Belgrano",
@@ -75,6 +103,20 @@
       "local": "River Plate",
       "visitante": "Lanús",
       "coincidencias": 4
+    },
+    {
+      "tipo": "recital",
+      "titulo": "ZZ Top @ Movistar Arena",
+      "fecha": "2026-11-24",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "ZZ Top"
     },
     {
       "tipo": "futbol",
