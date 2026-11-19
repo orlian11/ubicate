@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-19T15:54-03:00",
+  "actualizado": "2026-11-19T18:45-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -8,7 +8,7 @@
     },
     "Songkick Rock": {
       "ok": false,
-      "cantidad": 22,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Latin": {
@@ -139,20 +139,6 @@
       "local": "River Plate",
       "visitante": "Lanús",
       "coincidencias": 4
-    },
-    {
-      "tipo": "recital",
-      "titulo": "ZZ Top @ Movistar Arena",
-      "fecha": "2026-11-24",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Rock",
-      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "ZZ Top"
     },
     {
       "tipo": "futbol",
