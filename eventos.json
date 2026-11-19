@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-19T10:03-03:00",
+  "actualizado": "2026-11-19T12:53-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 11,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
@@ -18,7 +18,7 @@
     },
     "Songkick Movistar Arena": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 8,
       "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
@@ -29,6 +29,20 @@
   },
   "eventos": [
     {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43257715-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
+    {
       "tipo": "futbol",
       "titulo": "Vélez Sarsfield vs Belgrano",
       "fecha": "2026-11-20",
@@ -38,8 +52,8 @@
       "direccion": "Av. Juan B. Justo 9200, Liniers",
       "capacidad": 49000,
       "importancia": "Crítica",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "elliberal.com.ar",
+      "url": "https://www.elliberal.com.ar/nota/98503/2026/11/playoffs-del-torneo-clausura-2026--dias-horarios-arbitros-y-tv-de-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
       "coincidencias": 4
@@ -54,8 +68,8 @@
       "direccion": "Gavilán 2151, La Paternal",
       "capacidad": 26000,
       "importancia": "Alta",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "elliberal.com.ar",
+      "url": "https://www.elliberal.com.ar/nota/98503/2026/11/playoffs-del-torneo-clausura-2026--dias-horarios-arbitros-y-tv-de-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
       "coincidencias": 4
@@ -70,11 +84,25 @@
       "direccion": "Av. Pres. Figueroa Alcorta 7597, Núñez",
       "capacidad": 85000,
       "importancia": "Crítica",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "elliberal.com.ar",
+      "url": "https://www.elliberal.com.ar/nota/98503/2026/11/playoffs-del-torneo-clausura-2026--dias-horarios-arbitros-y-tv-de-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
       "coincidencias": 4
+    },
+    {
+      "tipo": "recital",
+      "titulo": "ZZ Top @ Movistar Arena",
+      "fecha": "2026-11-24",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "ZZ Top"
     },
     {
       "tipo": "futbol",
@@ -90,7 +118,21 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
-      "coincidencias": 2
+      "coincidencias": 1
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-26",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43260056-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
     }
   ]
 }
