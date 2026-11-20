@@ -1,10 +1,9 @@
 {
-  "actualizado": "2026-11-20T00:49-03:00",
+  "actualizado": "2026-11-20T04:05-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
-      "ok": false,
-      "cantidad": 0,
-      "error": "HTTP 406"
+      "ok": true,
+      "cantidad": 49
     },
     "Songkick Rock": {
       "ok": false,
@@ -74,7 +73,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -106,7 +105,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 3
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -122,7 +121,21 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 3
+      "coincidencias": 4
+    },
+    {
+      "tipo": "recital",
+      "titulo": "ZZ Top @ Movistar Arena",
+      "fecha": "2026-11-24",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "ZZ Top"
     },
     {
       "tipo": "futbol",
@@ -139,6 +152,34 @@
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
       "coincidencias": 1
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-26",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43260056-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-27",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43260057-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
     }
   ]
 }
