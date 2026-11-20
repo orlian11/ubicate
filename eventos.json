@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-19T21:54-03:00",
+  "actualizado": "2026-11-20T00:49-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 27,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
@@ -13,7 +13,7 @@
     },
     "Songkick Latin": {
       "ok": false,
-      "cantidad": 20,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Movistar Arena": {
@@ -23,15 +23,15 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 8,
-      "notas_leidas": 11
+      "cantidad": 7,
+      "notas_leidas": 10
     }
   },
   "eventos": [
     {
       "tipo": "futbol",
       "titulo": "Argentinos Juniors vs Independiente",
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-20",
       "hora": "17:00",
       "salida_estimada": "19:00",
       "lugar": "Diego A. Maradona",
@@ -45,23 +45,9 @@
       "coincidencias": 1
     },
     {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-19",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43257715-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
-    {
       "tipo": "futbol",
       "titulo": "River Plate vs Lanús",
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-20",
       "hora": "19:00",
       "salida_estimada": "21:00",
       "lugar": "Estadio Mas Monumental",
@@ -72,38 +58,6 @@
       "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Vélez Sarsfield vs Belgrano",
-      "fecha": "2026-11-19",
-      "hora": "20:00",
-      "salida_estimada": "22:00",
-      "lugar": "José Amalfitani",
-      "direccion": "Av. Juan B. Justo 9200, Liniers",
-      "capacidad": 49000,
-      "importancia": "Crítica",
-      "fuente": "eldiariodesanluis.com",
-      "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
-      "local": "Vélez Sarsfield",
-      "visitante": "Belgrano",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs Independiente Rivadavia",
-      "fecha": "2026-11-19",
-      "hora": "21:00",
-      "salida_estimada": "23:00",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "eldiariodesanluis.com",
-      "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
-      "local": "Boca Juniors",
-      "visitante": "Independiente Rivadavia",
       "coincidencias": 1
     },
     {
@@ -120,7 +74,23 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 5
+      "coincidencias": 4
+    },
+    {
+      "tipo": "futbol",
+      "titulo": "Boca Juniors vs Independiente Rivadavia",
+      "fecha": "2026-11-20",
+      "hora": "21:00",
+      "salida_estimada": "23:00",
+      "lugar": "La Bombonera",
+      "direccion": "Brandsen 805, La Boca",
+      "capacidad": 57000,
+      "importancia": "Crítica",
+      "fuente": "eldiariodesanluis.com",
+      "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
+      "local": "Boca Juniors",
+      "visitante": "Independiente Rivadavia",
+      "coincidencias": 1
     },
     {
       "tipo": "futbol",
@@ -136,7 +106,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 5
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
@@ -152,21 +122,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 5
-    },
-    {
-      "tipo": "recital",
-      "titulo": "ZZ Top @ Movistar Arena",
-      "fecha": "2026-11-24",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "ZZ Top"
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
@@ -182,21 +138,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
-      "coincidencias": 2
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-26",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43260056-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
+      "coincidencias": 1
     }
   ]
 }
