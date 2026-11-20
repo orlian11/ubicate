@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-20T06:55-03:00",
+  "actualizado": "2026-11-20T09:59-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 11,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
@@ -18,13 +18,13 @@
     },
     "Songkick Movistar Arena": {
       "ok": false,
-      "cantidad": 8,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 4,
-      "notas_leidas": 9
+      "notas_leidas": 12
     }
   },
   "eventos": [
@@ -42,7 +42,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 4
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -58,7 +58,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 4
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -74,21 +74,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 4
-    },
-    {
-      "tipo": "recital",
-      "titulo": "ZZ Top @ Movistar Arena",
-      "fecha": "2026-11-24",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "ZZ Top"
+      "coincidencias": 6
     },
     {
       "tipo": "futbol",
@@ -104,35 +90,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-26",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43260056-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-27",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43260057-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
+      "coincidencias": 3
     }
   ]
 }
