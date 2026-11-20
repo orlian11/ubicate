@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-20T09:59-03:00",
+  "actualizado": "2026-11-20T12:52-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 27,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
@@ -24,7 +24,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 4,
-      "notas_leidas": 12
+      "notas_leidas": 11
     }
   },
   "eventos": [
@@ -38,11 +38,11 @@
       "direccion": "Av. Juan B. Justo 9200, Liniers",
       "capacidad": 49000,
       "importancia": "Crítica",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "revistacodigos.com",
+      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 6
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -54,11 +54,11 @@
       "direccion": "Gavilán 2151, La Paternal",
       "capacidad": 26000,
       "importancia": "Alta",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "revistacodigos.com",
+      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 6
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -70,11 +70,25 @@
       "direccion": "Av. Pres. Figueroa Alcorta 7597, Núñez",
       "capacidad": 85000,
       "importancia": "Crítica",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "revistacodigos.com",
+      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 6
+      "coincidencias": 4
+    },
+    {
+      "tipo": "recital",
+      "titulo": "ZZ Top @ Movistar Arena",
+      "fecha": "2026-11-24",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43214225-zz-top-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "ZZ Top"
     },
     {
       "tipo": "futbol",
@@ -86,11 +100,39 @@
       "direccion": "Brandsen 805, La Boca",
       "capacidad": 57000,
       "importancia": "Crítica",
-      "fuente": "ahora.com.ar",
-      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
+      "fuente": "revistacodigos.com",
+      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
       "coincidencias": 3
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-26",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43260056-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-27",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Buenos Aires",
+      "url": "https://www.songkick.com/es/concerts/43260057-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
     }
   ]
 }
