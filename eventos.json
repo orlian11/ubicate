@@ -1,9 +1,10 @@
 {
-  "actualizado": "2026-11-20T04:05-03:00",
+  "actualizado": "2026-11-20T06:55-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
-      "ok": true,
-      "cantidad": 49
+      "ok": false,
+      "cantidad": 11,
+      "error": "HTTP 406"
     },
     "Songkick Rock": {
       "ok": false,
@@ -17,48 +18,16 @@
     },
     "Songkick Movistar Arena": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 8,
       "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 7,
-      "notas_leidas": 10
+      "cantidad": 4,
+      "notas_leidas": 9
     }
   },
   "eventos": [
-    {
-      "tipo": "futbol",
-      "titulo": "Argentinos Juniors vs Independiente",
-      "fecha": "2026-11-20",
-      "hora": "17:00",
-      "salida_estimada": "19:00",
-      "lugar": "Diego A. Maradona",
-      "direccion": "Gavilán 2151, La Paternal",
-      "capacidad": 26000,
-      "importancia": "Alta",
-      "fuente": "eldiariodesanluis.com",
-      "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
-      "local": "Argentinos Juniors",
-      "visitante": "Independiente",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "River Plate vs Lanús",
-      "fecha": "2026-11-20",
-      "hora": "19:00",
-      "salida_estimada": "21:00",
-      "lugar": "Estadio Mas Monumental",
-      "direccion": "Av. Pres. Figueroa Alcorta 7597, Núñez",
-      "capacidad": 85000,
-      "importancia": "Crítica",
-      "fuente": "eldiariodesanluis.com",
-      "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
-      "local": "River Plate",
-      "visitante": "Lanús",
-      "coincidencias": 1
-    },
     {
       "tipo": "futbol",
       "titulo": "Vélez Sarsfield vs Belgrano",
@@ -73,23 +42,7 @@
       "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 5
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs Independiente Rivadavia",
-      "fecha": "2026-11-20",
-      "hora": "21:00",
-      "salida_estimada": "23:00",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "eldiariodesanluis.com",
-      "url": "https://www.eldiariodesanluis.com/noticias/2026/11/19/31383-se-definieron-los-dias-y-horarios-de-los-octavos-de-final-del-torneo-clausura-2026",
-      "local": "Boca Juniors",
-      "visitante": "Independiente Rivadavia",
-      "coincidencias": 1
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
