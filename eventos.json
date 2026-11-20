@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T12:52-03:00",
+  "actualizado": "2026-11-20T15:53-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -18,7 +18,7 @@
     },
     "Songkick Movistar Arena": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 8,
       "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
