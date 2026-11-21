@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T18:42-03:00",
+  "actualizado": "2026-11-20T21:57-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -42,7 +42,7 @@
       "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Vélez Sarsfield",
       "visitante": "Belgrano",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -58,7 +58,7 @@
       "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
@@ -74,7 +74,7 @@
       "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 4
+      "coincidencias": 5
     },
     {
       "tipo": "futbol",
