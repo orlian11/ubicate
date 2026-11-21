@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T15:39-03:00",
+  "actualizado": "2026-11-21T18:35-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -13,7 +13,7 @@
     },
     "Songkick Latin": {
       "ok": false,
-      "cantidad": 21,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Movistar Arena": {
@@ -38,8 +38,8 @@
       "direccion": "Gavilán 2151, La Paternal",
       "capacidad": 26000,
       "importancia": "Alta",
-      "fuente": "revistacodigos.com",
-      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
       "coincidencias": 4
@@ -54,8 +54,8 @@
       "direccion": "Av. Pres. Figueroa Alcorta 7597, Núñez",
       "capacidad": 85000,
       "importancia": "Crítica",
-      "fuente": "revistacodigos.com",
-      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "River Plate",
       "visitante": "Lanús",
       "coincidencias": 4
@@ -84,8 +84,8 @@
       "direccion": "Brandsen 805, La Boca",
       "capacidad": 57000,
       "importancia": "Crítica",
-      "fuente": "revistacodigos.com",
-      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
+      "fuente": "ahora.com.ar",
+      "url": "https://ahora.com.ar/deportes/liga-profesional-que-dias-y-en-que-horarios-se-jugarian-los-octavos-de-final",
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
       "coincidencias": 2
