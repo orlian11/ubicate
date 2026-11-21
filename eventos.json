@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T03:58-03:00",
+  "actualizado": "2026-11-21T06:43-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -42,7 +42,7 @@
       "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Argentinos Juniors",
       "visitante": "Independiente",
-      "coincidencias": 5
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -58,7 +58,7 @@
       "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "River Plate",
       "visitante": "Lanús",
-      "coincidencias": 5
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -74,7 +74,7 @@
       "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
-      "coincidencias": 3
+      "coincidencias": 2
     }
   ]
 }
