@@ -1,14 +1,13 @@
 {
-  "actualizado": "2026-11-23T15:54-03:00",
+  "actualizado": "2026-11-23T18:47-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
-      "ok": false,
-      "cantidad": 12,
-      "error": "HTTP 406"
+      "ok": true,
+      "cantidad": 55
     },
     "Songkick Rock": {
       "ok": false,
-      "cantidad": 22,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Latin": {
