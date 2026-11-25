@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T04:09-03:00",
+  "actualizado": "2026-11-25T07:05-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -8,12 +8,12 @@
     },
     "Songkick Rock": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 21,
       "error": "HTTP 406"
     },
     "Songkick Latin": {
       "ok": false,
-      "cantidad": 21,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Movistar Arena": {
@@ -43,6 +43,20 @@
       "local": "Boca Juniors",
       "visitante": "Independiente Rivadavia",
       "coincidencias": 1
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Giant Rooks @ Teatro Vorterix",
+      "fecha": "2026-12-01",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Teatro Vorterix",
+      "direccion": "Av. Federico Lacroze 3455, Colegiales",
+      "capacidad": 2000,
+      "importancia": "Baja",
+      "fuente": "Songkick Rock",
+      "url": "https://www.songkick.com/es/concerts/43419513-giant-rooks-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
+      "artista": "Giant Rooks, Kraftklub"
     }
   ]
 }
