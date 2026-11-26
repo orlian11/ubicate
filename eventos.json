@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-11-25T22:00-03:00",
+  "actualizado": "2026-11-26T00:53-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 28,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
       "ok": false,
-      "cantidad": 21,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Latin": {
@@ -23,43 +23,11 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 5,
-      "notas_leidas": 6
+      "cantidad": 3,
+      "notas_leidas": 8
     }
   },
   "eventos": [
-    {
-      "tipo": "futbol",
-      "titulo": "Vélez Sarsfield vs Independiente",
-      "fecha": "2026-11-25",
-      "hora": "20:00",
-      "salida_estimada": "22:00",
-      "lugar": "José Amalfitani",
-      "direccion": "Av. Juan B. Justo 9200, Liniers",
-      "capacidad": 49000,
-      "importancia": "Crítica",
-      "fuente": "ole.com.ar",
-      "url": "https://www.ole.com.ar/futbol-primera/cuartos-final-torneo-clausura-dias-horarios-river-instituto-velez-independiente-rosario-central-barracas-gimnasia-boca-rivadavia_0_q6Yh2RlglV.html",
-      "local": "Vélez Sarsfield",
-      "visitante": "Independiente",
-      "coincidencias": 1
-    },
-    {
-      "tipo": "futbol",
-      "titulo": "Boca Juniors vs Independiente Rivadavia",
-      "fecha": "2026-11-25",
-      "hora": "21:00",
-      "salida_estimada": "23:00",
-      "lugar": "La Bombonera",
-      "direccion": "Brandsen 805, La Boca",
-      "capacidad": 57000,
-      "importancia": "Crítica",
-      "fuente": "revistacodigos.com",
-      "url": "https://revistacodigos.com/cruces-horarios-octavos-final-clausura-2026/",
-      "local": "Boca Juniors",
-      "visitante": "Independiente Rivadavia",
-      "coincidencias": 1
-    },
     {
       "tipo": "recital",
       "titulo": "Maria Becerra @ Movistar Arena",
@@ -158,5 +126,6 @@
       "url": "https://www.songkick.com/es/concerts/43420780-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
       "artista": "Omar Courtz"
     }
-  ]
+  ],
+  "aviso": "No se pudo actualizar. Se muestran datos previos de 2026-11-25T22:00-03:00."
 }
