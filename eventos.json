@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-11-26T04:07-03:00",
+  "actualizado": "2026-11-26T07:03-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
-      "cantidad": 12,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Rock": {
       "ok": false,
-      "cantidad": 21,
+      "cantidad": 0,
       "error": "HTTP 406"
     },
     "Songkick Latin": {
@@ -140,5 +140,6 @@
       "url": "https://www.songkick.com/es/concerts/43420782-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
       "artista": "Omar Courtz"
     }
-  ]
+  ],
+  "aviso": "No se pudo actualizar. Se muestran datos previos de 2026-11-26T04:07-03:00."
 }
