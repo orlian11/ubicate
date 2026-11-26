@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T07:03-03:00",
+  "actualizado": "2026-11-26T10:09-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -23,123 +23,42 @@
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
-      "cantidad": 3,
-      "notas_leidas": 8
+      "cantidad": 2,
+      "notas_leidas": 9
     }
   },
   "eventos": [
     {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-26",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43260056-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Maria Becerra @ Movistar Arena",
-      "fecha": "2026-11-27",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43260057-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Maria Becerra"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "God Save The Queen @ Teatro Gran Rex",
+      "tipo": "futbol",
+      "titulo": "Vélez Sarsfield vs Independiente",
       "fecha": "2026-11-28",
-      "hora": "20:30",
-      "salida_estimada": "23:15",
-      "lugar": "Teatro Gran Rex",
-      "direccion": "Av. Corrientes 857, San Nicolás",
-      "capacidad": 3300,
-      "importancia": "Media",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43191071-god-save-the-queen-at-teatro-gran-rex?utm_medium=organic&utm_source=microformat",
-      "artista": "God Save The Queen"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Omar Courtz @ Movistar Arena",
-      "fecha": "2026-11-30",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43420778-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Omar Courtz"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Giant Rooks @ Teatro Vorterix",
-      "fecha": "2026-12-01",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Teatro Vorterix",
-      "direccion": "Av. Federico Lacroze 3455, Colegiales",
-      "capacidad": 2000,
-      "importancia": "Baja",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43419513-giant-rooks-at-teatro-vorterix?utm_medium=organic&utm_source=microformat",
-      "artista": "Giant Rooks, Kraftklub"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "BABYMETAL @ Movistar Arena",
-      "fecha": "2026-12-01",
       "hora": "20:00",
-      "salida_estimada": "22:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43131656-babymetal-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "BABYMETAL"
+      "salida_estimada": "22:00",
+      "lugar": "José Amalfitani",
+      "direccion": "Av. Juan B. Justo 9200, Liniers",
+      "capacidad": 49000,
+      "importancia": "Crítica",
+      "fuente": "tn.com.ar",
+      "url": "https://tn.com.ar/deportes/futbol/2026/11/25/el-torneo-clausura-entra-en-su-etapa-decisiva-se-confirmo-el-cuadro-y-el-cronograma-de-partidos-de-los-cuartos-de-final/",
+      "local": "Vélez Sarsfield",
+      "visitante": "Independiente",
+      "coincidencias": 3
     },
     {
-      "tipo": "recital",
-      "titulo": "Omar Courtz @ Movistar Arena",
-      "fecha": "2026-12-02",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43420780-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Omar Courtz"
-    },
-    {
-      "tipo": "recital",
-      "titulo": "Omar Courtz @ Movistar Arena",
-      "fecha": "2026-12-03",
-      "hora": "19:00",
-      "salida_estimada": "21:45",
-      "lugar": "Movistar Arena",
-      "direccion": "Humboldt 450, Villa Crespo",
-      "capacidad": 15000,
-      "importancia": "Alta",
-      "fuente": "Songkick Buenos Aires",
-      "url": "https://www.songkick.com/es/concerts/43420782-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
-      "artista": "Omar Courtz"
+      "tipo": "futbol",
+      "titulo": "Boca Juniors vs Gimnasia",
+      "fecha": "2026-11-29",
+      "hora": "20:30",
+      "salida_estimada": "22:30",
+      "lugar": "La Bombonera",
+      "direccion": "Brandsen 805, La Boca",
+      "capacidad": 57000,
+      "importancia": "Crítica",
+      "fuente": "tn.com.ar",
+      "url": "https://tn.com.ar/deportes/futbol/2026/11/25/el-torneo-clausura-entra-en-su-etapa-decisiva-se-confirmo-el-cuadro-y-el-cronograma-de-partidos-de-los-cuartos-de-final/",
+      "local": "Boca Juniors",
+      "visitante": "Gimnasia",
+      "coincidencias": 3
     }
-  ],
-  "aviso": "No se pudo actualizar. Se muestran datos previos de 2026-11-26T04:07-03:00."
+  ]
 }
