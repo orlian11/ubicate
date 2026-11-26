@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T12:56-03:00",
+  "actualizado": "2026-11-26T15:52-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -24,7 +24,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 2,
-      "notas_leidas": 11
+      "notas_leidas": 12
     }
   },
   "eventos": [
@@ -58,7 +58,7 @@
       "url": "https://tn.com.ar/deportes/futbol/2026/11/25/el-torneo-clausura-entra-en-su-etapa-decisiva-se-confirmo-el-cuadro-y-el-cronograma-de-partidos-de-los-cuartos-de-final/",
       "local": "Boca Juniors",
       "visitante": "Gimnasia",
-      "coincidencias": 3
+      "coincidencias": 2
     }
   ]
 }
