@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-27T15:52-03:00",
+  "actualizado": "2026-11-27T18:51-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -24,7 +24,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 2,
-      "notas_leidas": 15
+      "notas_leidas": 14
     }
   },
   "eventos": [
