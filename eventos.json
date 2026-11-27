@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-27T07:00-03:00",
+  "actualizado": "2026-11-27T10:05-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -18,16 +18,30 @@
     },
     "Songkick Movistar Arena": {
       "ok": false,
-      "cantidad": 0,
+      "cantidad": 8,
       "error": "HTTP 406"
     },
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 2,
-      "notas_leidas": 11
+      "notas_leidas": 13
     }
   },
   "eventos": [
+    {
+      "tipo": "recital",
+      "titulo": "Maria Becerra @ Movistar Arena",
+      "fecha": "2026-11-27",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43260057-maria-becerra-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Maria Becerra"
+    },
     {
       "tipo": "futbol",
       "titulo": "Vélez Sarsfield vs Independiente",
@@ -38,11 +52,11 @@
       "direccion": "Av. Juan B. Justo 9200, Liniers",
       "capacidad": 49000,
       "importancia": "Crítica",
-      "fuente": "tn.com.ar",
-      "url": "https://tn.com.ar/deportes/futbol/2026/11/25/el-torneo-clausura-entra-en-su-etapa-decisiva-se-confirmo-el-cuadro-y-el-cronograma-de-partidos-de-los-cuartos-de-final/",
+      "fuente": "lagaceta.com.ar",
+      "url": "https://www.lagaceta.com.ar/nota/1164513/deportes/torneo-clausura-2026-dias-horarios-cruces-confirmados-para-cuartos-final.html",
       "local": "Vélez Sarsfield",
       "visitante": "Independiente",
-      "coincidencias": 3
+      "coincidencias": 4
     },
     {
       "tipo": "futbol",
@@ -59,6 +73,62 @@
       "local": "Boca Juniors",
       "visitante": "Gimnasia",
       "coincidencias": 3
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Omar Courtz @ Movistar Arena",
+      "fecha": "2026-11-30",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43420778-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Omar Courtz"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "BABYMETAL @ Movistar Arena",
+      "fecha": "2026-12-01",
+      "hora": "20:00",
+      "salida_estimada": "22:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43131656-babymetal-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "BABYMETAL"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Omar Courtz @ Movistar Arena",
+      "fecha": "2026-12-02",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43420780-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Omar Courtz"
+    },
+    {
+      "tipo": "recital",
+      "titulo": "Omar Courtz @ Movistar Arena",
+      "fecha": "2026-12-03",
+      "hora": "19:00",
+      "salida_estimada": "21:45",
+      "lugar": "Movistar Arena",
+      "direccion": "Humboldt 450, Villa Crespo",
+      "capacidad": 15000,
+      "importancia": "Alta",
+      "fuente": "Songkick Movistar Arena",
+      "url": "https://www.songkick.com/es/concerts/43420782-omar-courtz-at-movistar-arena?utm_medium=organic&utm_source=microformat",
+      "artista": "Omar Courtz"
     }
   ]
 }
