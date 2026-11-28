@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-28T06:48-03:00",
+  "actualizado": "2026-11-28T09:52-03:00",
   "fuentes": {
     "Songkick Buenos Aires": {
       "ok": false,
@@ -24,7 +24,7 @@
     "Fútbol (notas de prensa)": {
       "ok": true,
       "cantidad": 2,
-      "notas_leidas": 13
+      "notas_leidas": 11
     }
   },
   "eventos": [
@@ -42,7 +42,7 @@
       "url": "https://tn.com.ar/deportes/futbol/2026/11/25/el-torneo-clausura-entra-en-su-etapa-decisiva-se-confirmo-el-cuadro-y-el-cronograma-de-partidos-de-los-cuartos-de-final/",
       "local": "Vélez Sarsfield",
       "visitante": "Independiente",
-      "coincidencias": 5
+      "coincidencias": 3
     },
     {
       "tipo": "futbol",
@@ -58,7 +58,7 @@
       "url": "https://tn.com.ar/deportes/futbol/2026/11/25/el-torneo-clausura-entra-en-su-etapa-decisiva-se-confirmo-el-cuadro-y-el-cronograma-de-partidos-de-los-cuartos-de-final/",
       "local": "Boca Juniors",
       "visitante": "Gimnasia",
-      "coincidencias": 4
+      "coincidencias": 3
     }
   ]
 }
